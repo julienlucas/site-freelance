@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="inline-block mt-3 -mb-12">
           <p className="relative uppercase w-auto block text-white px-4 pb-1 rounded-xl" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Pour les startups</p>
         </div>
-        <h1>Développer votre app web<br/><span>en temps express</span><br/><strong>et accélérer votre croissance</strong></h1>
+        <h1>Développez votre app web<br/><span>en temps express</span><br/><strong>et accélérez votre croissance</strong></h1>
         <p className="pt-14 mono">Création d’application web, MVP, refonte, reprise, rénovation d’app existante,<br/> sans exploser votre budget.🔥</p>
 
         <div className="relative pt-14 pb-24 sm:flex block flex-inline items-center flex-nowrap w-full">

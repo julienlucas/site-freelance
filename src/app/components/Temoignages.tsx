@@ -50,7 +50,7 @@ export default function Temoignages() {
           <div className="basis-3/5 items-center sm:block flex flex-col justify-center">
             <Image
               className="headshot-quote"
-              style={{objectFit: "cover", objectPosition: '-70px center'}}
+              style={{objectFit: "cover", objectPosition: '-20px center'}}
               src="/anne-laure-de-candido-b.jpeg"
               width={580}
               height={10}
