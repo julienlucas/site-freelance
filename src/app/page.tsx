@@ -42,7 +42,7 @@ export default function Home() {
           <div className="max-w-5xl w-full">
             <p>
               De mes expériences, je constate que c'est la même chose qui revient : <br/><br/>
-              <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget de vos projets</span>. Mais au contraire <span>les réduire</span></strong>.<br/><br/>
+              <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget de vos projets</span>. Mais au contraire les réduire</strong>.<br/><br/>
               Sur une app chargée en fonctionnalités, <strong>ça doit passer par la mise en place de Clean Architecture</strong> : pour un front-end ou back fortement scalable, découplé où il est aisé de modifier/remplacer des features/libs/frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
               Vous êtes CEO, fondateur de startup, PO ou CTO?<br/>
               J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo come dev front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
