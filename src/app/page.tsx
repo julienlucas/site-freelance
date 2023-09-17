@@ -62,9 +62,9 @@ export default function Home() {
               </div>
             </div>
             <p>
-              Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
+              👋🏼 Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
               J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi.<br/><br/>
-              Je souhaite <strong>faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires</strong>, m'assurer qu'ils réussissent leur projet, et les amener à la croissance.
+              Je souhaite <strong>faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires</strong>. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
             <h3>Mes technos</h3>
             <p className="mb-10">React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p>
