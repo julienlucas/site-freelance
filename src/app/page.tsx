@@ -4,7 +4,9 @@ import Script from 'next/script'
 import Header from './components/Header'
 import CasClients from './components/CasClients'
 import Accompagnement from './components/Accompagnement'
-import Link from './components/Link'
+import Temoignages from './components/Temoignages'
+import Offres from './components/Offres'
+import Button from './components/Button'
 
 export default function Home() {
   return (
@@ -32,12 +34,19 @@ export default function Home() {
 
       <section className="relative">
         <div id="section-1" className="px-6 flex flex-col pt-20 pb-40 w-full items-center justify-between">
-          <div className="max-w-screen-xl">
-            <h2 className="big">Développer votre app <strong><span>sans exploser votre budget.</span></strong><br/>J’ai les méthodes et produit la qualité de code <strong>pour y arriver.</strong></h2>
+          <div className="max-w-screen-2xl">
+            <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2>
           </div>
 
           <div className="max-w-5xl w-full">
-            <div className="flex flex-row w-full items-center justify-between pt-4 pb-10">
+            <p>
+              De mes expériences, je constate que c'est la même chose qui revient : <br/><br/>
+              <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget de vos projets</span>. Mais au contraire <span>les réduire</span></strong>.<br/><br/>
+              Sur une app chargée en fonctionnalités, <strong>ça doit passer par la mise en place de Clean Architecture</strong> : pour un front-end ou back fortement scalable, découplé où il est aisé de modifier/remplacer des features/libs/frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
+              Vous êtes CEO, fondateur de startup, PO ou CTO?<br/>
+              J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo en front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
+            </p>
+            <div className="flex flex-row w-full items-center justify-between pt-24 pb-10">
               <div className="basis-1/3">
                 <Image
                   src="/headshot-b.jpg"
@@ -46,102 +55,69 @@ export default function Home() {
                   alt=""
                 />
               </div>
-              <div className="basis-2/3 pl-4">
+              <div className="basis-2/3 -mt-6 pl-1">
                 <h3 className="name">Julien Lucas</h3>
-                <p className="title relative text-gray-400 -mt-6 mb-4 name mono">Développeur axé time to market dans la tech depuis 2018</p>
+                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur dans la tech axé time to market depuis 2018<br/>Ex: Iziwork (French Next 40), Sewan, Reezocar, Corum, et Smartch</p>
               </div>
             </div>
             <p>
-              Je suis Julien Lucas, développeur freelance front-end/full-stack basé à Avignon.
-              Avec <span>5 ans d’expérience</span> j’ai travaillé avec des startups early stage, middle, en scale-up et en PME. J’ai quis une solide culture dev et tech. J’ai vu ce qu’est une app mal construite,et j’ai vu des apps bien constuite. En 2023, désormais je veux proposer une gamme élergie de services pour faire profiter pleinement de mon expérience.
+              Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
+              J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi.<br/><br/>
+              Je souhaite désormais <strong>faire profiter de mon expérience de dev d'app plus directement à mes clients, sans intermédiaires</strong>, m'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
-            <p className="pt-4"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon parcours professionnel Linkedin</a></p>
             <h3>Mes technos</h3>
-            <p>React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js, Appolo GraphQL (2ans)</p>
-            <h3>Méthodes de dev</h3>
-            <p className="mb-10">Clean Architecture/Hexagonale, DDD, Craftmanship, CI (Intégration Continue), CD (Déploiement Continue), tests unitaires et e2e<br/><br/></p>
-            <Link href="" scroll><button>Échanger avec moi</button></Link>
+            <p className="mb-10">React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p>
+            <p className="pt-4 mb-10"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon CV et parcours pro sur Linkedin</a></p>
           </div>
+          <Button texte={'texte1'} />
         </div>
       </section>
 
-      <div className="relative w-full bg-slate-100 md:py-44 pt-10 mt-20">
-        <Accompagnement />
+      <Offres />
 
-        <section id="offres" className="px-6 flex flex-col pt-72 pb-8 w-full items-center justify-between">
-          <div className="max-w-screen-xl w-full">
-            <h2 className="text-center">Vous avez des <strong>objectifs de croissance</strong><br/> J’ai les méthodes et la qualité de code <strong>pour les atteindre</strong></h2>
-          </div>
-          <div className="max-w-7xl w-full items-center justify-between">
-            <p className="text-center mono"><strong>J’ai les méthodes de qualité de code</strong>, de Clean Architecture, et de DDD pour produire une code de qualité et que vous n’explosiez pas votre budget. Zéro bug. Pas de TJM explosé avec (pour le moment du moins).</p>
-          </div>
-
-          <div className="relative max-w-screen-lg w-full mt-32">
-            <div className="offres w-full pt-12 h-fit grid grid-cols-2 gap-10">
-              <div className="offre px-14 py-4 pb-16 h-full w-full flex flex-col bg-slate-200">
-                <p className="mt-10 -mb-14 text-left mono text-gray-400">Opération</p>
-                <h3>Développement d’app web - front-end uniquement</h3>
-                <p className="pt-3"><strong>En charge du front-end de votre app</strong>, création, refonte, ou reprise d’existant applicatif</p>
-                <ul className="list-none">
-                  <li><p className="mono">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p></li>
-                  <li><p className="mono">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p></li>
-                </ul>
-                <Link href="" scroll><button>En savoir plus</button></Link>
-              </div>
-              <div className="offre px-14 py-4 pb-16 w-full h-full flex flex-col bg-slate-200">
-                <p className="mt-10 -mb-14 text-left mono text-gray-400">Opération</p>
-                <h3>Développement d’app complète - full-stack, front et l’API</h3>
-                <p className="pt-3"><strong>En charge du développement</strong> complet front et back de votre app ou MVP en React.js et Node.js</p>
-                <ul className="list-none">
-                  <li><p className="mono">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p></li>
-                  <li><p className="mono">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p></li>
-                </ul>
-                <Link href="" scroll><button>En savoir plus</button></Link>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <section id="expertises" className="relative pt-40 w-full bg-neutral-950">
-        <div className="w-full flex flex-col -mt-20 pb-8 px-4 h-fit items-center justify-between text-white">
-          <div className="max-w-screen-lg w-full grid md:grid-cols-3 flex md:gap-20 gap-0">
+      <section id="expertises" className="relative z-30 pt-24 w-full bg-neutral-950">
+        <div className="w-full flex flex-col -mt-20 pb-6 px-4 h-fit items-center justify-between text-white">
+          <div className="max-w-screen-lg w-full grid md:grid-cols-3 flex md:gap-16 gap-0">
             <div className="pb-8 h-fit flex flex-col">
-              <h4><span>#</span> Dev front-end</h4>
-              <p className="mono">Des apps react scalée vite, flexible, maintenables, modulaires en archi clean/hexagonale</p>
+              <h4><span>#</span> Dev Front-end</h4>
+              <p className="mono">Créeons une app React fortement scalable, robuste, maintenable, modulaire, en Clean Architecture</p>
             </div>
             <div className="pb-8 h-fit flex flex-col">
-              <h4><span>#</span> MVP</h4>
-              <p className="mono">Votre est un gros foutoir? Je refonds code </p>
+              <h4><span>#</span> Dev Back/d’API</h4>
+              <p className="mono">Votre back-end/votre API REST/GraphQL (Nest) scalable pour votre app</p>
             </div>
+            <div className="pb-8 h-fit flex flex-col">
+              <h4><span>#</span> App MVP</h4>
+              <p className="mono">Je crée votre app avec les fonctionnalités minimum développée en temps express</p>
+            </div>
+          </div>
+
+          <div className="max-w-screen-lg w-full grid md:grid-cols-3 flex md:gap-16 gap-0">
             <div className="pb-8 h-fit flex flex-col ">
-              <h4><span>#</span> Reprise de code</h4>
-              <p className="mono">Des campagnes qui génèrent des clics mais surtout du revenu.</p>
-            </div>
-          </div>
-
-          <div className="max-w-screen-lg w-full grid md:grid-cols-3 flex md:gap-20 gap-0">
-            <div className="pb-8 h-fit flex flex-col">
-              <h4><span>#</span> Développement d’API</h4>
-              <p className="mono">Votre API GraphQL pour votre app</p>
+              <h4><span>#</span> Rénovation front-end</h4>
+              <p className="mono">Je réduis votre dette technique et rénove votre code legacy, pour des front-end plus robustes, performants et des process de dev plus efficaces</p>
             </div>
             <div className="pb-8 h-fit flex flex-col">
               <h4><span>#</span> Design System</h4>
-              <p className="mono">Avec Stencil.js vous pourrez utiliser votre UI Kit partout : sur Angular, React, Vue, et même iOS/Android natifs grâce à capacitor.js.</p>
+              <p className="mono">Avec Stencil.js votre UI Kit est utilisable partout: Angular, Vue, React, votre site. Et hautement performant (2-3x plus rapide que React ou Svelte)</p>
             </div>
             <div className="pb-8 h-fit flex flex-col">
-              <h4><span>#</span> DDD, Agile</h4>
-              <p className="mono">Domain Driven Developpement, Agile Scrum</p>
+              <h4><span>#</span> Pratiques de dev</h4>
+              <p className="mono">Clean Architecture, DDD, Design Patterns, méthodes de refacto, rédaction des tests unitaires, d'intégration et end-to-end, DevOps CI/CD</p>
             </div>
           </div>
         </div>
       </section>
 
       <CasClients />
-      <div id="footer" className="relative flex flex-col items-center justify-between w-full bg-slate-100 py-24 pb-36">
+      <Temoignages />
+
+      <div id="footer" className="relative z-30 flex flex-col items-center justify-between w-full bg-slate-100 pt-20 pb-52">
         <Accompagnement />
-        <h2 className="mt-60 -mb-3">On prends un <strong>café virtuel ensemble?</strong></h2>
-        <Link href="" scroll className="mt-10"><button>Oui, échanger avec moi</button></Link>
+        <h2 className="big mt-60 mb-8"><strong>Vous êtes prêt?</strong></h2>
+        {/* <h2 className="big mt-60 -mb-3">Vous êtes prêt,<br/> on prends un <strong>café virtuel?</strong></h2> */}
+        {/* <p className="text-center">66% of technology projects (based on the analysis of 50,000 projects globally) end in partial or total failure (source:) <br/>Les projets agiles ont aussi 3 fois plus de chances de réussir</p> */}
+        <Button texte={'texte4'} />
       </div>
     </main>
   )
