@@ -1,5 +1,5 @@
 import Link from './Link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -19,9 +19,9 @@ export default function Home() {
             <p className="slogan mono pl-8">Freelance <span className="text-gray-400 hidden md:inline-block">- Lead développeur front-end / Full-stack / Architecte</span></p>
           </Link>
           <ul className="list-none font-medium text-lg h-full md-none mono">
-            <li><Link href="/#expertises" scroll>Mes expertises</Link></li>
-            <li><Link href="/#cas-clients" scroll>Cas clients</Link></li>
-            <li><Link href="/#newsletter" scroll>Échanger avec moi</Link></li>
+            <li><Link href="#expertises" scroll>Mes expertises</Link></li>
+            <li><Link href="#cas-clients" scroll>Cas clients</Link></li>
+            <li><Link href="#newsletter" scroll>Échanger avec moi</Link></li>
           </ul>
         </div>
       </nav>
