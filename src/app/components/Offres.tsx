@@ -12,7 +12,7 @@ export default function Offres() {
           <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J’ai <strong>les solutions</strong> pour des devs maîtrisés.</h2>
         </div>
         <div className="max-w-screen-md w-full items-center justify-between">
-          <p className="text-center mono"><strong>Vous êtes CEO, fondateur de startup, PO ou CTO</strong>, tout au long de notre collaboration ou avec votre équipe technique, vous obtiendrez des estimations de fonctionnalités et d'apps suffisament fines pour que vous puissisez prévoir et anticiper.</p>
+          <p className="text-center mono"><strong>Vous êtes CEO, fondateur de startup, PO ou CTO</strong>, tout au long de notre collaboration ou via votre équipe technique, vous obtiendrez des estimations de fonctionnalités et d'apps suffisament fines pour que vous puissisez prévoir et anticiper.</p>
         </div>
 
         <div className="relative max-w-screen-xl w-full mt-32">
