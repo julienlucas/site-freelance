@@ -4,8 +4,8 @@ import Link from './components/Link'
 import Navigation from './components/Navigation'
 
 export const metadata: Metadata = {
-  title: "Développement d'Applications Web Front-end & Full-stack - Julien Lucas",
-  description: "Développer votre application web React, sans exploser votre budget.🔥",
+  title: "Développement d'Applications Web Front-end & Full-stack - Julien Lucas, freelance",
+  description: "Développez votre application web React, sans exploser votre budget.🔥",
 }
 
 export default function RootLayout({
