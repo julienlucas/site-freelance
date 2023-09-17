@@ -35,7 +35,8 @@ export default function Home() {
       <section className="relative">
         <div id="section-1" className="px-6 flex flex-col pt-20 pb-40 w-full items-center justify-between">
           <div className="max-w-screen-2xl">
-            <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2>
+            {/* <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2> */}
+            <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets projet.</span></strong><br/>Mieux,<strong> les réduire.</strong></h2>
           </div>
 
           <div className="max-w-5xl w-full">
@@ -44,7 +45,7 @@ export default function Home() {
               <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget de vos projets</span>. Mais au contraire <span>les réduire</span></strong>.<br/><br/>
               Sur une app chargée en fonctionnalités, <strong>ça doit passer par la mise en place de Clean Architecture</strong> : pour un front-end ou back fortement scalable, découplé où il est aisé de modifier/remplacer des features/libs/frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
               Vous êtes CEO, fondateur de startup, PO ou CTO?<br/>
-              J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo en front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
+              J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo come dev front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
             </p>
             <div className="flex flex-row w-full items-center justify-between pt-24 pb-10">
               <div className="basis-1/3">
@@ -63,7 +64,7 @@ export default function Home() {
             <p>
               Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
               J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi.<br/><br/>
-              Je souhaite désormais <strong>faire profiter de mon expérience de dev d'app plus directement à mes clients, sans intermédiaires</strong>, m'assurer qu'ils réussissent leur projet, et les amener à la croissance.
+              Je souhaite <strong>faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires</strong>, m'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
             <h3>Mes technos</h3>
             <p className="mb-10">React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p>

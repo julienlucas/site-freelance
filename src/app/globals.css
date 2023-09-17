@@ -112,7 +112,7 @@ p:not(.slogan) span {
 h2 {
   color: black;
   margin-bottom: 4rem;
-  font-size: 5rem;
+  font-size: 5.5rem;
   line-height: 1.2;
   text-align: center;
 }
@@ -164,7 +164,7 @@ h4 strong, .mono strong {
 
 .mono strong {
   letter-spacing: -.03rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'PressuraMono-Regular';
 }
 

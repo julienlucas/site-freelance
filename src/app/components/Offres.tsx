@@ -12,7 +12,7 @@ export default function Offres() {
           <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J’ai <strong>les solutions</strong> pour des devs maîtrisés.</h2>
         </div>
         <div className="max-w-screen-md w-full items-center justify-between">
-          <p className="text-center mono"><strong>Vous êtes CEO, fondateur de startup, PO ou CTO</strong>, tout au long de notre collaboration ou avec votre équipe technique, vous obtiendrez des estimations de fonctionnalités et d'apps qui sont suffisament fines pour que vous puissisez prévoir et anticiper. Ceci pour des apps avec zéro bug.</p>
+          <p className="text-center mono"><strong>Vous êtes CEO, fondateur de startup, PO ou CTO</strong>, tout au long de notre collaboration ou avec votre équipe technique, vous obtiendrez des estimations de fonctionnalités et d'apps suffisament fines pour que vous puissisez prévoir et anticiper.</p>
         </div>
 
         <div className="relative max-w-screen-xl w-full mt-32">
@@ -23,7 +23,7 @@ export default function Offres() {
               <div className="hidden inline-block mt-14 -mb-12">
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Front-end</p>
               </div>
-              <h3>Dev d'app Front-end</h3>
+              <h3>Dev d'app Front React.js</h3>
               <h5>Création de votre MVP, refonte, reprise de devs front, ou rénovation de votre existant applicatif</h5>
               <ul className="list-none">
                 <li><p className="mono">Vous avez besoin de renfort pour atteindre vos objectifs de croissance</p></li>
@@ -62,7 +62,7 @@ export default function Offres() {
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Design System</p>
               </div>
               <h3>Dev de kit de composants</h3>
-              <h5>Votre UI Kit en Stencil.js ou React.js (minimum 8 semaines)</h5>
+              <h5>Votre UI Kit en Stencil.js ou React.js</h5>
               <ul className="list-none">
                 <li><p className="mono">Avec Stencil.js et les Web Components, votre UI Kit est flexible, utilisable sur toutes vos apps: Angular, Vue, React, les apps mobiles hybrides. Et même iOS/Android natif grâce à l'ajout de Capacitor.js</p></li>
                 {/* <li><p className="mono">Mise en place de DevOps CI/CD, écriture de tests automatisés</p></li> */}

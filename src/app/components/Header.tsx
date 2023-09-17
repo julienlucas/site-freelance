@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
 
         <div className="slider-container max-w-screen-lg">
-          <ul className="grayscale slider opacity-40 list-none flex grow items-center justify-center justify-items-center pb-20">
+          <ul className="grayscale slider opacity-70 list-none flex grow items-center justify-center justify-items-center pb-20">
             <li>
               <Image
                 src="/logo-iziwork.png"
