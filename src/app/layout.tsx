@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata, } from 'next'
-export const openGraphImage = { images: ['https://julienlucas.ovh/wp-content/uploads/2023/09/og-image.jpeg'] }
+export const openGraphImage = { images: ['https://julienlucas.ovh/wp-content/uploads/2023/09/og-image2.png'] }
 import Link from './components/Link'
 import Navigation from './components/Navigation'
 
