@@ -4,7 +4,7 @@ import Button from './Button'
 export default function Accompagnement() {
   return (
     <section className="relative w-full flex flex-col pt-20 pb-8 items-center justify-between">
-      <div id="accompagnement" className="max-w-screen-lg py-12 w-full bg-white">
+      <div id="accompagnement" className="max-w-screen-lg sm:py-12 pb-4 pt-12 w-full bg-white">
         <h2>Un accompagnement <strong><span>à votre mesure</span></strong></h2>
         <div className="relative flex flex-col py-8 pt-0 px-4 items-center justify-start">
           <ul className="list-none">
@@ -15,7 +15,7 @@ export default function Accompagnement() {
           </ul>
         </div>
         <div className="flex flex-col items-center justify-center w-full">
-          <Button texte={'texte2'} />
+          <Button texte={'texte3'} />
         </div>
       </div>
     </section>

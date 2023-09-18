@@ -16,7 +16,7 @@ export default function Home() {
                 alt=""
               /> */}
             </div>
-            <p className="slogan mono pl-8">Freelance <span className="text-gray-400 hidden md:inline-block">- Lead développeur front-end / Full-stack / Architecte</span></p>
+            <p className="slogan mono pl-8 pt-1.5">Freelance <span className="text-gray-400 hidden md:inline-block">- Lead développeur front-end / Full-stack / Architecte</span></p>
           </Link>
           <ul className="list-none font-medium text-lg h-full md-none mono">
             <li><Link href="#expertises" scroll>Mes expertises</Link></li>

@@ -23,8 +23,8 @@ export default function RootLayout({
         <Navigation />
         {children}
       </body>
-      <footer className="flex flex-col items-center justify-center w-full -mt-12 h-full px-4 py-56 pt-60 bg-neutral-950">
-        <Link href="/mentions-legales" scroll><p className="mentions-legales mono text-center text-inherit">Mentions légales</p></Link>
+      <footer className="flex flex-col items-center justify-center w-full -mt-12 h-full px-4 py-56 bg-neutral-950">
+        <Link href="/mentions-legales" scroll><p className="mentions-legales mono text-center text-inherit p-10">Mentions légales</p></Link>
         {/* <p className="relative text-center text-gray-400 text-xl mono">{currentYear} Julien Lucas</p> */}
       </footer>
     </html>

@@ -266,11 +266,12 @@ button.third {
   font-size: 1.4rem;
   font-family: 'PressuraMono-Regular';
   background: transparent;
-  border: 0;
+  border: .2rem solid transparent;
   color: rgb(156 163 175);
 }
 
 button.third:hover {
+  border: .2rem solid rgb(209 213 219);
   background-color: rgb(209 213 219);
   color: black;
 }
@@ -338,7 +339,6 @@ button.secondary:hover {
   height: 350px;
   background: grey;
   clip-path: polygon(0 3%, 75% 0, 75% 97%, 0% 100%);
-  position: relative;
 }
 
 #offres ul {
@@ -568,13 +568,15 @@ button.secondary:hover {
     --slider-inner-width: 1200px;
   }
   #accompagnement::before {
-    top: -5rem;
-    border-bottom: 10rem solid white;
+    top: -2rem;
+    border-bottom: 7rem solid white;
+    border-left: 100vw solid transparent;
   }
 
   #accompagnement::after {
-    bottom: -8rem;
-    border-top: 10rem solid white;
+    bottom: -5rem;
+    border-top: 7rem solid white;
+    border-right: 100vw solid transparent;
   }
 
   nav ul {
