@@ -29,6 +29,11 @@ export default function Meta() {
       <link rel="shortcut icon" href="icons/icon-72x72.png" />
       <meta name="msapplication-TileColor" content="#3c30e5" />
       <meta name="theme-color" content="#3c30e5" />
+      <meta
+        name="description"
+        content="Développez votre app web React, sans exploser votre budget.🔥"
+      />
+      <meta property="og:image" content="/og-image.jpeg" />
     </>
   )
 }
