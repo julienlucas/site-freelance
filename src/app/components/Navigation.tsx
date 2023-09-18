@@ -21,7 +21,7 @@ export default function Home() {
           <ul className="list-none font-medium text-lg h-full md-none mono">
             <li><Link href="#expertises" scroll>Mes expertises</Link></li>
             <li><Link href="#cas-clients" scroll>Cas clients</Link></li>
-            <li><Link href="https://calendly.com/julien-lucas/talk-dev" scroll>Échanger avec moi</Link></li>
+            <li><a href="https://calendly.com/julien-lucas/talk-dev" target="_blank">Échanger avec moi</a></li>
           </ul>
         </div>
       </nav>
