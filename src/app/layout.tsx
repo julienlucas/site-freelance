@@ -1,11 +1,19 @@
 import './globals.css'
-import type { Metadata } from 'next'
+import type { Metadata, } from 'next'
+export const openGraphImage = { images: ['https://julienlucas.ovh/wp-content/uploads/2023/09/og-image.jpeg'] }
 import Link from './components/Link'
 import Navigation from './components/Navigation'
 
 export const metadata: Metadata = {
   title: "Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance",
   description: "Développez votre application web React, sans exploser votre budget.🔥",
+  openGraph: {
+    ...openGraphImage,
+    title: "Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance",
+    description: "Développez votre application web React, sans exploser votre budget.🔥",
+    type: "website",
+    url: "https://julienlucas.com/"
+  },
 }
 
 export default function RootLayout({
