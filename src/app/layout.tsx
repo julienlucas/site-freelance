@@ -4,7 +4,7 @@ import Link from './components/Link'
 import Navigation from './components/Navigation'
 
 export const metadata: Metadata = {
-  title: "Développement d'Applications Web Front-end & Full-stack - Julien Lucas, freelance",
+  title: "Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance",
   description: "Développez votre application web React, sans exploser votre budget.🔥",
 }
 

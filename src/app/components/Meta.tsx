@@ -29,14 +29,33 @@ export default function Meta() {
       <link rel="shortcut icon" href="icons/icon-72x72.png" />
       <meta name="msapplication-TileColor" content="#3c30e5" />
       <meta name="theme-color" content="#3c30e5" />
+
+      {/* OpenGraph tags */}
       <meta property="og:type" content="siteweb" />
       <meta property="og:url" content="https://julienlucas.com/" />
-      <meta property="og:title" content="Développement d'Apps Web Front & Full-stack - Julien Lucas freelance" />
+      <meta property="og:title" content="Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance" />
       <meta
         name="description"
         content="Développez votre app web React, sans exploser votre budget.🔥"
       />
       <meta property="og:image" content="https://julienlucas.ovh/wp-content/uploads/2023/09/og-image.jpeg" />
+
+      {/* Twitter Card tags */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content="@julienlucasjl" />
+      <meta name="twitter:title" content="Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance" />
+      <meta name="twitter:description" content="Développez votre app web React, sans exploser votre budget.🔥" />
+      <meta name="twitter:image" content="https://julienlucas.ovh/wp-content/uploads/2023/09/og-image.jpeg" />
+      <script type="application/ld+json">
+        {`
+        {
+          "@context": "http://schema.org",
+          "@type": "WebPage",
+          "url": "https://julienlucas.com/",
+          "name": "Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance"
+        }
+        `}
+      </script>
     </>
   )
 }
