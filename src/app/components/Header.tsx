@@ -12,7 +12,7 @@ export default function Hero() {
         <p className="pt-14 mono">Création d’application web, MVP, refonte, reprise, rénovation d’app existante,<br/> sans exploser votre budget.🔥</p>
 
         <div className="relative pt-14 pb-24 sm:flex block flex-inline items-center flex-nowrap w-full">
-          <a href="mailto:contact@julienlucas.com" target="_blank" className="mr-4"><button>Échanger avec moi ➜</button></a>
+          <a href="https://calendly.com/julien-lucas/talk-dev" target="_blank" className="mr-4"><button>Échanger avec moi ➜</button></a>
           <Link href="#offres" scroll ><button className="secondary">Voir les offres</button></Link>
         </div>
 
