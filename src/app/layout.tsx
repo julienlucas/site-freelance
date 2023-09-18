@@ -4,15 +4,25 @@ export const openGraphImage = { images: ['https://julienlucas.ovh/wp-content/upl
 import Link from './components/Link'
 import Navigation from './components/Navigation'
 
+const title = "Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance"
+const description = "Développez votre application web React, sans exploser votre budget.🔥"
+
 export const metadata: Metadata = {
-  title: "Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance",
-  description: "Développez votre application web React, sans exploser votre budget.🔥",
+  title,
+  description,
   openGraph: {
     ...openGraphImage,
-    title: "Développeur d'Apps Web Front React & Full-stack - Julien Lucas freelance",
-    description: "Développez votre application web React, sans exploser votre budget.🔥",
+    title,
+    description,
     type: "website",
     url: "https://julienlucas.com/"
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    creator: '@julienlucasjl',
+    images: ['https://julienlucas.ovh/wp-content/uploads/2023/09/og-image2.png'],
   },
 }
 
