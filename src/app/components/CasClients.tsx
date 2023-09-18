@@ -49,7 +49,7 @@ export default function CasClients() {
                 height={10}
                 alt=""
               />
-              <p className="text-center pt-2">NDA signé</p>
+              {/* <p className="text-center pt-2">NDA signé</p> */}
             </div>
           </div>
         </div>
