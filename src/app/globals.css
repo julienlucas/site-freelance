@@ -346,11 +346,11 @@ button.secondary:hover {
   margin-bottom: 2rem;
 }
 
-#offres ul li::before {
+#offres ul p::before {
   position: absolute;
-  margin-top: -1.2rem;
-  margin-left: -2.3rem;
-  font-size: 3rem;
+  margin-top: -.5rem;
+  margin-left: -2.5rem;
+  font-size: 2rem;
   content: '✔'
 }
 
