@@ -36,7 +36,7 @@ export default function Home() {
         <div id="section-1" className="px-6 flex flex-col pt-20 pb-40 w-full items-center justify-between">
           <div className="max-w-screen-2xl">
             {/* <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2> */}
-            <h2 className="big">Je créer votre app <strong><span>sans exploser vos budgets projet.</span></strong><br/>Mieux,<strong> en le réduisant.</strong></h2>
+            <h2 className="big">Je créer votre app <strong><span>sans exploser vos budgets projet.</span></strong><br/>Mieux,<strong> en les réduisant</strong></h2>
           </div>
 
           <div className="max-w-5xl w-full">
