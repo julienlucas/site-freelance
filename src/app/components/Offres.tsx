@@ -23,8 +23,8 @@ export default function Offres() {
               <div className="hidden inline-block mt-14 -mb-12">
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Front-end</p>
               </div>
-              <h3>Dev d'app Front React.js</h3>
-              <h5>Création de votre MVP, refonte, reprise de devs front, ou rénovation de votre existant applicatif</h5>
+              <h3>Développement d'app front</h3>
+              <h5>Création de votre MVP React.js, refonte, reprise de devs front, ou rénovation de votre existant applicatif</h5>
               <ul className="list-none">
                 <li><p className="mono">Vous avez besoin de renfort pour atteindre vos objectifs de croissance</p></li>
                 <li><p className="mono">Vous cherchez un dev en charge de votre front-end pour votre app web</p></li>

@@ -58,12 +58,12 @@ export default function Home() {
               </div>
               <div className="basis-2/3 -mt-6 pl-4 sm:pl-1">
                 <h3 className="name">Julien Lucas</h3>
-                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur dans la tech axé time to market depuis 2018<br/>Ex: Iziwork (French Next 40), Sewan, Reezocar, Corum, et Smartch</p>
+                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur front-end React depuis 2018<br/>Ex: Iziwork (French Next 40), Sewan, Reezocar, Corum, et Smartch</p>
               </div>
             </div>
             <p>
               Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
-              J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi.<br/><br/>
+              {/* J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi. */}<br/>
               Je souhaite <strong>faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires</strong>. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
             <h3>Mes technos</h3>

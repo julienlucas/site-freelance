@@ -8,8 +8,8 @@ export default function Hero() {
         {/* <div className="inline-block mt-3 -mb-12">
           <p className="relative uppercase w-auto block text-white px-4 pb-1 rounded-xl" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Pour les startups</p>
         </div> */}
-        <h1>Développez votre app web<br/>en temps express<br/><strong>et accélérez votre croissance</strong></h1>
-        <p className="pt-14 mono">Création d’application web, MVP, refonte, reprise, rénovation d’app existante,<br/> sans exploser votre budget.🔥</p>
+        <h1 className="max-w-screen-lg">Développez votre app web<br/>en temps express<br/><strong>et passez à la croissance de votre startup</strong></h1>
+        <p className="pt-14 mono max-w-screen-sm">Création d’application front/full-stack, MVP, refonte, reprise, rénovation d’app existante, sans exploser votre budget.🔥</p>
 
         <div className="relative pt-14 pb-24 sm:flex block flex-inline items-center flex-nowrap w-full">
           <a href="https://calendly.com/julien-lucas/talk-dev" target="_blank" className="mr-4"><button>Échanger avec moi ➜</button></a>
