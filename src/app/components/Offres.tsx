@@ -33,7 +33,8 @@ export default function Offres() {
                 {/* <li><p className="mono">Rapport d’activités en 3-4 bullets points 2x/semaine (en plus des réunions)</p></li> */}
                 {/* <li><p className="mono">Estimation précise de chaque fonctionnalité à réaliser en durée.</p></li> */}
               </ul>
-              <div className="relative sm:flex block flex-inline items-center flex-nowrap w-full">
+              <p><strong>Demander vos 30min de conseils gratuit :</strong></p>
+              <div className="mt-4 relative sm:flex block flex-inline items-center flex-nowrap w-full">
                 <div className="mr-4">
                   <Button texte={'texte2'} />
                 </div>
@@ -53,6 +54,7 @@ export default function Offres() {
                 {/* <li><p className="mono">Mise en place de DevOps CI/CD, écriture de tests automatisés</p></li> */}
                 {/* <li><p className="mono">Rapport d’activités en 3-4 bullets points 2x/semaine (en plus des réunions)</p></li> */}
               </ul>
+              <p className="mb-4"><strong>Demander vos 30min de conseils gratuit :</strong></p>
               <Button texte={'texte2'} />
             </div>
 
@@ -68,6 +70,7 @@ export default function Offres() {
                 {/* <li><p className="mono">Mise en place de DevOps CI/CD, écriture de tests automatisés</p></li> */}
                 <li><p className="mono">Rapport d’activités en 3-4 bullets points 2x/semaine (en plus des réunions)</p></li>
               </ul>
+              <p className="mb-4"><strong>Demander vos 30min de conseils gratuit :</strong></p>
               <Button texte={'texte2'} />
             </div>
 
