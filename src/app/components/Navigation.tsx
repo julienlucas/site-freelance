@@ -1,5 +1,5 @@
 import Link from './Link'
-// import Image from 'next/image'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -8,13 +8,12 @@ export default function Home() {
         <div className="max-w-screen-2xl flex w-full items-center justify-between px-4 md:pl-0">
           <Link href="/">
             <div className="logo flex items-center justify-center h-32 w-auto py-3 px-3 bg-purple text-white">
-              JULIEN LUCAS
-              {/* <Image
-                src="/jl.png"
-                width={36}
+              <Image
+                src="/logo-julienlucas.jpeg"
+                width={65}
                 height={5}
                 alt=""
-              /> */}
+              />
             </div>
             <p className="slogan mono pl-8 pt-1.5">Freelance <span className="text-gray-400 hidden md:inline-block">- Lead développeur front-end / Full-stack / Architecte</span></p>
           </Link>

@@ -8,8 +8,8 @@ export default function Offres() {
       <Accompagnement />
 
       <section id="offres" className="px-6 flex flex-col pt-52 pb-8 w-full items-center justify-between">
-        <div className="max-w-screen-2xl w-full">
-          <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J’ai <strong>les solutions</strong> pour des devs maîtrisés.</h2>
+        <div className="max-w-screen-lg w-full">
+          <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J'ai <strong>les méthodes</strong> pour dev une app de qualité, scalable, et rapidement.</h2>
         </div>
         <div className="max-w-screen-md w-full items-center justify-between">
           <p className="text-center mono"><strong>Vous êtes CEO, fondateur de startup, PO ou CTO</strong>, tout au long de notre collaboration ou via votre équipe technique, vous obtiendrez des estimations de fonctionnalités et d'apps suffisament fines pour que vous puissisez prévoir et anticiper.</p>
@@ -19,7 +19,7 @@ export default function Offres() {
           <div className="offres w-full pt-12 h-fit grid grid-cols-3 gap-10">
 
             <div className="offre px-14 py-4 pb-16 h-fit w-full flex flex-col bg-slate-200">
-              <p className="mt-10 -mb-14 text-left mono text-gray-400">Opération</p>
+              <p className="mt-10 -mb-14 text-left mono text-gray-400">Mission</p>
               <div className="hidden inline-block mt-14 -mb-12">
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Front-end</p>
               </div>
@@ -42,7 +42,7 @@ export default function Offres() {
             </div>
 
             <div className="offre px-14 py-4 pb-16 w-full h-fit flex flex-col bg-slate-200">
-              <p className="mt-10 -mb-14 text-left mono text-gray-400">Opération</p>
+              <p className="mt-10 -mb-14 text-left mono text-gray-400">Mission</p>
               <div className="hidden inline-block mt-14 -mb-12">
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Full-stack</p>
               </div>
@@ -57,7 +57,7 @@ export default function Offres() {
             </div>
 
             <div className="offre px-14 py-4 pb-16 w-full h-fit flex flex-col bg-slate-200">
-              <p className="mt-10 -mb-14 text-left mono text-gray-400">Opération</p>
+              <p className="mt-10 -mb-14 text-left mono text-gray-400">Mission</p>
               <div className="hidden inline-block mt-14 -mb-12">
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Design System</p>
               </div>

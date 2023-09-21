@@ -36,7 +36,7 @@ export default function Home() {
         <div id="section-1" className="px-6 flex flex-col pt-20 pb-40 w-full items-center justify-between">
           <div className="max-w-screen-2xl">
             {/* <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2> */}
-            <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets projet.</span></strong><br/>Mieux,<strong> les réduire.</strong></h2>
+            <h2 className="big">Je créer votre app <strong><span>sans exploser vos budgets projet.</span></strong><br/>Mieux,<strong> en le réduisant.</strong></h2>
           </div>
 
           <div className="max-w-5xl w-full">
@@ -62,7 +62,7 @@ export default function Home() {
               </div>
             </div>
             <p>
-              👋🏼 Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
+              Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
               J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi.<br/><br/>
               Je souhaite <strong>faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires</strong>. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
@@ -73,6 +73,8 @@ export default function Home() {
           <Button texte={'texte1'} />
         </div>
       </section>
+
+      <Temoignages />
 
       <Offres />
 
@@ -111,11 +113,12 @@ export default function Home() {
       </section>
 
       <CasClients />
-      <Temoignages />
 
       <div id="footer" className="relative z-30 flex flex-col items-center justify-between w-full bg-slate-100 pt-20 pb-52">
         <Accompagnement />
-        <h2 className="big mt-60 mb-8"><strong>Vous êtes prêt?</strong></h2>
+        <h2 className="mt-60"><strong>Vous êtes une startup et avez un projet</strong></h2>
+        <h2 className="-mt-16 mb-8"><strong>d'app, de MVP, ou de refonte ?</strong></h2>
+        <h3 className="small -mt-1 text-center mb-8">Discutons de votre projet et voyons ensemble comment atteindre vos objectifs ! 🤝</h3>
         {/* <h2 className="big mt-60 -mb-3">Vous êtes prêt,<br/> on prends un <strong>café virtuel?</strong></h2> */}
         {/* <p className="text-center">66% of technology projects (based on the analysis of 50,000 projects globally) end in partial or total failure (source:) <br/>Les projets agiles ont aussi 3 fois plus de chances de réussir</p> */}
         <Button texte={'texte4'} />

@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Temoignages() {
   return (
-    <section className="relative w-full flex flex-col pt-56 pb-64 items-center justify-between">
-      <h2 className="text-center"><strong>Ils m'ont fait confiance</strong></h2>
-      <div className="max-w-screen-2xl px-4 w-full pt-12 h-full md:grid md:grid-cols-3">
+    <section id="temoignages" className="relative w-full flex flex-col pt-28 pb-64 items-center justify-between">
+      <h2 className="text-center"><strong>Ils ont travaillé avec moi</strong></h2>
+      <div className="max-w-screen-2xl px-4 w-full h-full md:grid md:grid-cols-3">
 
         <div className="sm:pt-12 pt-0 h-full lg:grid lg:grid-cols-2 grid-cols-1 gap-4">
           <div className="basis-2/5 pb-8 pt-8 sm:block flex flex-col justify-center w-full">
