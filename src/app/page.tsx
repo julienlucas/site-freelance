@@ -58,7 +58,7 @@ export default function Home() {
               </div>
               <div className="basis-2/3 -mt-6 pl-4 sm:pl-1">
                 <h3 className="name">Julien Lucas</h3>
-                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur front-end React depuis 2018<br/>Ex: Iziwork (French Next 40), Sewan, Reezocar, Corum, et Smartch</p>
+                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur front-end React depuis 2018<br/>Ex: Iziwork (French Next 120), Sewan, Reezocar, Corum, et Smartch</p>
               </div>
             </div>
             <p>
