@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <section className="absolute t-0 z-50 w-full bg-white">
+    <section className="absolute t-0 z-50 w-full bg-slate-100">
       <nav className="h-32 flex flex-col items-center justify-center w-full">
         {/* <div className="max-w-screen-2xl flex w-full items-center justify-cenrer px-4 md:pl-0"> */}
           <Link href="/">
@@ -15,7 +15,7 @@ export default function Home() {
                 alt=""
               />
             </div>
-            <button className="logo-subtitle">Freelance/Agence</button>
+            <button className="logo-subtitle">Freelance</button>
             {/* <p className="slogan mono pl-8 pt-1.5">Freelance <span className="text-gray-400 hidden md:inline-block">- Lead développeur front-end / Full-stack / Architecte</span></p> */}
           </Link>
           {/* <ul className="list-none font-medium text-lg h-full md-none mono">

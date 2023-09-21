@@ -342,6 +342,7 @@ button.secondary:hover {
 .logo-subtitle {
   position: absolute;
   margin-top: -1rem;
+  margin-left: 2.5rem;
   height: 2.5rem !important;
   background: rgb(156 163 175);
   border: 0;
