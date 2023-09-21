@@ -352,6 +352,10 @@ button.secondary:hover {
   border-radius: 6rem;
   transform: rotate(-13deg)
 }
+.logo-subtitle:hover {
+  background: rgb(156 163 175);
+  color: white;
+}
 
 .headshot-quote {
   width: 350px;
