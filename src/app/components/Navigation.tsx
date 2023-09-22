@@ -3,14 +3,14 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <section className="absolute t-0 z-50 w-full bg-slate-100">
+    <section className="absolute t-0 z-50 w-full">
       <nav className="h-32 flex flex-col items-center justify-center w-full">
         {/* <div className="max-w-screen-2xl flex w-full items-center justify-cenrer px-4 md:pl-0"> */}
           <Link href="/">
-            <div className="logo flex items-center justify-center h-32 w-auto py-3 px-3 bg-purple text-white">
+            <div className="logo flex items-center justify-center h-30 w-auto py-2 px-3 bg-purple text-white">
               <Image
                 src="/logo-julienlucas.jpeg"
-                width={65}
+                width={55}
                 height={5}
                 alt=""
               />

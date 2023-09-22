@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import BlurImage from './BlurImage'
 
 export default function Temoignages() {
   return (
@@ -12,14 +13,11 @@ export default function Temoignages() {
             <p className="mt-4">Sébastien Aumaître<br/><p className="text-gray-400">CEO @ Pushtalents</p></p>
           </div>
           <div className="basis-3/5 items-center flex flex-col lg:justify-start">
-            <Image
-              className="headshot-quote "
-              style={{objectFit: "cover"}}
+            <BlurImage
+              className="headshot-quote"
               src="/sebastien-aumaitre.jpeg"
-              width={580}
+              width={350}
               height={10}
-              loading="lazy"
-              alt=""
             />
           </div>
         </div>
@@ -30,14 +28,12 @@ export default function Temoignages() {
             <p className="mt-4">Michaël Roulland<br/><p className="text-gray-400">Ex Head of Design @ Iziwork</p></p>
           </div>
           <div className="basis-3/5 items-center flex flex-col lg:justify-start">
-            <Image
+            <BlurImage
               className="headshot-quote"
-              style={{objectFit: "cover", objectPosition: '-70px center'}}
+              style={{objectPosition: '-80px center'}}
               src="/michael-roulland.jpeg"
-              width={580}
-              height={10}
-              loading="lazy"
-              alt=""
+              width={380}
+              height={580}
             />
           </div>
         </div>
@@ -48,14 +44,11 @@ export default function Temoignages() {
             <p className="mt-4">Anne-Laure de Candido<br/><p className="text-gray-400">COO - Co-fondatrice @ Smartch</p></p>
           </div>
           <div className="basis-5/5 w-full items-center flex flex-col lg:justify-start">
-            <Image
+            <BlurImage
               className="headshot-quote"
-              style={{objectFit: "cover"}}
               src="/anne-laure-de-candido-b.jpeg"
               width={580}
               height={10}
-              loading="lazy"
-              alt=""
             />
           </div>
         </div>

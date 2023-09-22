@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import Script from 'next/script'
+import BlurImage from './components/BlurImage'
 import Header from './components/Header'
 import CasClients from './components/CasClients'
 import Accompagnement from './components/Accompagnement'
@@ -36,24 +37,16 @@ export default function Home() {
         <div id="section-1" className="px-6 flex flex-col pt-20 pb-40 w-full items-center justify-between">
           <div className="max-w-screen-2xl">
             {/* <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2> */}
-            <h2 className="big">Je créer votre app <strong><span>sans exploser vos budgets projet.</span></strong><br/>Mieux,<strong> en les réduisant</strong></h2>
+            <h2 className="big">Je créer votre app <strong><span>sans exploser votre budget projet.</span></strong><br/>Mieux<strong> en le réduisant</strong>, notamment grâce à la Clean Architecture</h2>
           </div>
 
           <div className="max-w-5xl w-full">
-            <p>
-              De mes expériences, je constate que c'est la même chose qui revient : <br/><br/>
-              <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget de vos projets</span>. Mais au contraire les réduire</strong>.<br/><br/>
-              Sur une app chargée en fonctionnalités, <strong>ça doit passer par la mise en place de Clean Architecture</strong> : pour un front-end ou back fortement scalable, découplé où il est aisé de modifier/remplacer des features/libs/frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
-              Vous êtes CEO, fondateur de startup, PO ou CTO?<br/>
-              J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo come dev front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
-            </p>
-            <div className="flex flex-row w-full items-center justify-between pt-24 pb-10">
-              <div className="basis-1/3">
-                <Image
+            <div className="flex flex-row w-full items-center justify-between pt-14 pb-10">
+              <div className="basis-1/3 pr-16">
+                <BlurImage
                   src="/headshot-b.jpg"
                   width={170}
                   height={10}
-                  alt=""
                 />
               </div>
               <div className="basis-2/3 -mt-6 pl-4 sm:pl-1">
@@ -62,12 +55,19 @@ export default function Home() {
               </div>
             </div>
             <p>
-              Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
+              Bonjour 👋. Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
               {/* J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi. */}<br/>
-              Je souhaite <strong>faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires</strong>. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
+              Je souhaite faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
             <h3>Mes technos</h3>
-            <p className="mb-10">React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p>
+            <p className="mb-10">React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p><br/><br/>
+            <p>
+              De mes expériences, je constate que c'est la même chose qui revient : <br/><br/>
+              <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget de vos projets</span>. Mais au contraire les réduire</strong>.<br/><br/>
+              Sur une app chargée en fonctionnalités, <strong>ça doit passer par la mise en place de Clean Architecture</strong> : pour un front-end ou back fortement scalable, découplé où il est aisé de modifier/remplacer des features/libs/frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
+              Vous êtes CEO, fondateur de startup, PO ou CTO?<br/>
+              J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo come dev front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
+            </p>
             <p className="pt-4 mb-10"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon CV et parcours pro sur Linkedin</a></p>
           </div>
           <Button texte={'texte1'} />
@@ -117,8 +117,8 @@ export default function Home() {
       <div id="footer" className="relative z-30 flex flex-col items-center justify-between w-full bg-slate-100 pt-20 pb-52">
         <Accompagnement />
         <h2 className="mt-60"><strong>Vous êtes une startup et avez un projet</strong></h2>
-        <h2 className="-mt-16 mb-8"><strong>d'app, de MVP, ou de refonte ?</strong></h2>
-        <h3 className="small -mt-1 text-center mb-8">Discutons de votre projet et voyons ensemble comment atteindre vos objectifs ! 🤝</h3>
+        <h2 className="-mt-16 mb-8"><strong>d'app, de MVP ou de refonte ?</strong></h2>
+        <h3 className="small -mt-1 text-center mb-8">Discutons de votre projet, 30min pour voir ensemble comment atteindre vos objectifs ! 🤝</h3>
         {/* <h2 className="big mt-60 -mb-3">Vous êtes prêt,<br/> on prends un <strong>café virtuel?</strong></h2> */}
         {/* <p className="text-center">66% of technology projects (based on the analysis of 50,000 projects globally) end in partial or total failure (source:) <br/>Les projets agiles ont aussi 3 fois plus de chances de réussir</p> */}
         <Button texte={'texte4'} />

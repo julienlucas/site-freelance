@@ -1,5 +1,6 @@
 import Button from './Button'
 import Image from 'next/image'
+import BlurImage from './BlurImage'
 
 export default function CasClients() {
   return (
@@ -13,13 +14,11 @@ export default function CasClients() {
                 <div className="pt-10 -mb-12 flex flex-row w-full">
                   <div className="basis-1/4">
                     <div className="flex items-center justify-center h-32 w-32 py-3 px-3 bg-black">
-                      <Image
+                      <BlurImage
                         className="invert"
                         src="/logo-smartch-b.png"
                         width={50}
                         height={70}
-                        loading="lazy"
-                        alt=""
                       />
                     </div>
                   </div>
@@ -41,13 +40,11 @@ export default function CasClients() {
           </div>
           <div className="h-full flex sm:justify-end justify-center">
             <div>
-              <Image
-                style={{objectFit: "cover"}}
+              <BlurImage
                 className="rounded-xl"
                 src="/andragogue.png"
                 width={500}
                 height={10}
-                alt=""
               />
               {/* <p className="text-center pt-2">NDA signé</p> */}
             </div>
@@ -58,13 +55,11 @@ export default function CasClients() {
       <div id="cas-client-2" className="relative w-full pt-8 px-6 flex flex-col items-center justify-between" style={{backgroundColor: '#edf9f7'}}>
         <div className="max-w-screen-lg pt-44 pb-32 w-full h-full sm:grid block grid-cols-2 gap-20">
           <div className="h-full flex sm:justify-start justify-center">
-            <Image
-              style={{objectFit: "cover"}}
+            <BlurImage
               className="rounded-xl"
               src="/sophia.jpg"
               width={500}
               height={10}
-              alt=""
             />
           </div>
           <div className="pb-8 sm:max-w-xl w-full h-full flex flex-col">
@@ -72,12 +67,10 @@ export default function CasClients() {
               <div className="block">
                 <div className="pt-10 -mb-12 flex flex-row w-full">
                   <div className="basis-1/4">
-                    <Image
+                    <BlurImage
                       src="/logo-sewan.webp"
                       width={80}
                       height={80}
-                      loading="lazy"
-                      alt=""
                     />
                   </div>
                   <div className="basis-3/4">

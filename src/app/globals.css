@@ -83,7 +83,7 @@ h3 {
 
 h1 {
   font-weight: 500;
-  font-size: 7.5rem;
+  font-size: 6.5rem;
   line-height: 1.1;
   font-family: "Pressura-Medium";
   color: black;
@@ -97,7 +97,7 @@ h1 strong, h2 strong, h3 strong {
 h1 span, h2 span, h3 span {
   background-image: linear-gradient(120deg, #fbf1a7 0%, #fbf1a7 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.45em;
+  background-size: 100% 0.4em;
   background-position: 0 90%;
 }
 
@@ -260,6 +260,14 @@ button {
   transition: all .2s cubic-bezier(0.045, 0.715, 0.250, 1.000)
 }
 
+button.btn-header {
+  color: #dad8f0;
+}
+
+button.btn-header:hover {
+  color: #523ef4;
+}
+
 button.secondary {
   border: .2rem solid black;
   color: black;
@@ -296,6 +304,20 @@ button.secondary:hover {
   background-color: black;
   color: white;
 }
+.offre {
+  border-top-left-radius: .6rem;
+  border-bottom-right-radius: .6rem;
+  transition: all .1s cubic-bezier(0.045, 0.715, 0.250, 1.000);
+}
+.offre:hover {
+  background: rgb(218 225 235);
+}
+.offre:hover::before {
+  border-bottom: 2.1rem solid rgb(218 225 235);
+}
+.offre:hover::after {
+  border-top: 2.1rem solid rgb(218 225 235);
+}
 
 .offre::before {
   position: absolute;
@@ -304,9 +326,11 @@ button.secondary:hover {
   display: block;
   height: 0;
   width: 0;
-  border-bottom: 2rem solid rgb(226 232 240);
+  border-bottom: 2.1rem solid rgb(226 232 240);
   border-left: 41rem solid transparent;
-  content: ''
+  content: '';
+  transition: all .1s cubic-bezier(0.045, 0.715, 0.250, 1.000);
+  border-top-right-radius: .6rem;
 }
 
 .offre::after {
@@ -319,6 +343,8 @@ button.secondary:hover {
   border-top: 2rem solid rgb(226 232 240);
   border-right: 41rem solid transparent;
   content: '';
+  transition: all .1s cubic-bezier(0.045, 0.715, 0.250, 1.000);
+  border-bottom-left-radius: .6rem;
 }
 
 .offre:last-child, .offre:nth-child(2) {
@@ -580,10 +606,16 @@ button.secondary:hover {
     border-bottom: 7rem solid rgb(226 232 240);
     border-left: calc(100vw - 3rem) solid transparent;
   }
+  .offre:hover::before {
+    border-bottom: 7rem solid rgb(218 225 235);
+  }
   .offre::after {
     bottom: -7rem;
     border-top: 7rem solid rgb(226 232 240);
     border-right: calc(100vw - 3rem) solid transparent;
+  }
+  .offre:hover::after {
+    border-top: 7rem solid rgb(218 225 235);
   }
 }
 

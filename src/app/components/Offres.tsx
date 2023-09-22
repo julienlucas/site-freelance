@@ -47,8 +47,8 @@ export default function Offres() {
               <div className="hidden inline-block mt-14 -mb-12">
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Full-stack</p>
               </div>
-              <h3>Création d'app Full-stack</h3>
-              <h5>Création de votre application web en React.js et Node.js</h5>
+              <h3>Création d'app full-stack</h3>
+              <h5>Création de votre application web front et back en React.js et Node.js</h5>
               <ul className="list-none">
                 <li><p className="mono">Création de votre app full-stack, avec un front et back fortement scalable et robuste en Clean Architecture</p></li>
                 {/* <li><p className="mono">Mise en place de DevOps CI/CD, écriture de tests automatisés</p></li> */}
@@ -63,8 +63,8 @@ export default function Offres() {
               <div className="hidden inline-block mt-14 -mb-12">
                 <p className="relative w-auto inline-block text-white px-4 rounded-xl pb-1" style={{backgroundColor: '#442bf2', fontSize: '1.6rem'}}>Design System</p>
               </div>
-              <h3>Dev de kit de composants</h3>
-              <h5>Votre UI Kit en Stencil.js ou React.js</h5>
+              <h3>Dev de Design System</h3>
+              <h5>Votre UI Kit de composants en Stencil.js ou React.js</h5>
               <ul className="list-none">
                 <li><p className="mono">Avec Stencil.js et les Web Components, votre UI Kit est flexible, utilisable sur toutes vos apps: Angular, Vue, React, les apps mobiles hybrides. Et même iOS/Android natif grâce à l'ajout de Capacitor.js</p></li>
                 {/* <li><p className="mono">Mise en place de DevOps CI/CD, écriture de tests automatisés</p></li> */}

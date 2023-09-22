@@ -1,4 +1,3 @@
-import Link from '../components/Link'
 import Button from './Button'
 
 export default function Accompagnement() {
