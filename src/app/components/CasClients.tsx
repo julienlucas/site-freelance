@@ -4,9 +4,9 @@ import BlurImage from './BlurImage'
 
 export default function CasClients() {
   return (
-    <section id="cas-clients" className="relative z-10 w-full h-fit sm:flex block flex-col pt-56 pb-24 items-center justify-between" style={{background: 'linear-gradient(180deg, #fcfbf3 50%, #edf9f7 50%)'}}>
+    <section id="cas-clients" className="relative z-10 w-full h-fit sm:flex block flex-col pt-56 pb-56 items-center justify-between" style={{background: 'linear-gradient(180deg, #fcfbf3 50%, #edf9f7 50%)'}}>
       <div id="cas-client-1" className="relative w-full pb-24 px-6 flex flex-col items-center justify-between" style={{backgroundColor: '#fcfbf3'}}>
-        <h2 className="text-center"><strong>Études de cas clients</strong></h2>
+        <h2 className="text-center"><strong>Exemple de projets</strong></h2>
         <div className="max-w-screen-lg w-full h-fit sm:grid block grid-cols-2 gap-20">
           <div className="pb-8 sm:max-w-xl w-full h-full sm:flex block flex-col">
             <div className="sm:flex block items-center justify-center h-full w-full">

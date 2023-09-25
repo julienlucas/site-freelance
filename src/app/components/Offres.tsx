@@ -8,8 +8,8 @@ export default function Offres() {
       <Accompagnement />
 
       <section id="offres" className="px-6 flex flex-col pt-52 pb-8 w-full items-center justify-between">
-        <div className="max-w-screen-lg w-full">
-          <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J'ai <strong>les méthodes</strong> pour dev une app de qualité, scalable, et rapidement.</h2>
+        <div className="max-w-screen-xl w-full">
+          <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J'ai <strong>les méthodes</strong> pour dev une app de qualité, scalable, et sans exploser votre budget.</h2>
         </div>
         <div className="max-w-screen-md w-full items-center justify-between">
           <p className="text-center mono"><strong>Vous êtes CEO, fondateur de startup, PO ou CTO</strong>, tout au long de notre collaboration ou via votre équipe technique, vous obtiendrez des estimations de fonctionnalités et d'apps suffisament fines pour que vous puissisez prévoir et anticiper.</p>
@@ -33,7 +33,7 @@ export default function Offres() {
                 {/* <li><p className="mono">Rapport d’activités en 3-4 bullets points 2x/semaine (en plus des réunions)</p></li> */}
                 {/* <li><p className="mono">Estimation précise de chaque fonctionnalité à réaliser en durée.</p></li> */}
               </ul>
-              <p><strong>Demander vos 30min de conseils gratuit :</strong></p>
+              <p><strong>Demander vos 30min de conseil gratuit :</strong></p>
               <div className="mt-4 relative sm:flex block flex-inline items-center flex-nowrap w-full">
                 <div className="mr-4">
                   <Button texte={'texte2'} />
@@ -54,7 +54,7 @@ export default function Offres() {
                 {/* <li><p className="mono">Mise en place de DevOps CI/CD, écriture de tests automatisés</p></li> */}
                 {/* <li><p className="mono">Rapport d’activités en 3-4 bullets points 2x/semaine (en plus des réunions)</p></li> */}
               </ul>
-              <p className="mb-4"><strong>Demander vos 30min de conseils gratuit :</strong></p>
+              <p className="mb-4"><strong>Demander vos 30min de conseil gratuit :</strong></p>
               <Button texte={'texte2'} />
             </div>
 
@@ -70,7 +70,7 @@ export default function Offres() {
                 {/* <li><p className="mono">Mise en place de DevOps CI/CD, écriture de tests automatisés</p></li> */}
                 <li><p className="mono">Rapport d’activités en 3-4 bullets points 2x/semaine (en plus des réunions)</p></li>
               </ul>
-              <p className="mb-4"><strong>Demander vos 30min de conseils gratuit :</strong></p>
+              <p className="mb-4"><strong>Demander vos 30min de conseil gratuit :</strong></p>
               <Button texte={'texte2'} />
             </div>
 

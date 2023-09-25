@@ -1,5 +1,5 @@
 export default function Button({ texte } : { texte: string }) {
-  const texte1 = "Échanger avec moi"
+  const texte1 = "Échangeons, je vous accompagne 30min"
   const texte2 = "En savoir +"
   const texte3 = "Recevoir ma prosposition gratuite"
   const texte4 = "Oui, échanger avec moi !"

@@ -33,11 +33,13 @@ export default function Home() {
 
       <Header />
 
+      <Temoignages />
+
       <section className="relative">
-        <div id="section-1" className="px-6 flex flex-col pt-20 pb-40 w-full items-center justify-between">
+        <div id="section-1" className="px-6 flex flex-col pb-40 w-full items-center justify-between">
           <div className="max-w-screen-2xl">
             {/* <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2> */}
-            <h2 className="big">Je créer votre app <strong><span>sans exploser votre budget projet.</span></strong><br/>Mieux<strong> en le réduisant</strong>, notamment grâce à la Clean Architecture</h2>
+            <h2 className="big">Développons une app de qualité, <strong><span>en maîtrisant vos coûts.</span></strong><br/>Mieux,<strong> en les réduisants</strong>, grâce à la Clean Architecture<br/> et une haute qualité de code</h2>
           </div>
 
           <div className="max-w-5xl w-full">
@@ -51,30 +53,28 @@ export default function Home() {
               </div>
               <div className="basis-2/3 -mt-6 pl-4 sm:pl-1">
                 <h3 className="name">Julien Lucas</h3>
-                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur front-end React depuis 2018<br/>Ex: Iziwork (French Next 120), Sewan, Reezocar, Corum, et Smartch</p>
+                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur front-end React 5 ans d'expérience dans la tech<br/>Ex: Iziwork (French Next 120), Sewan, Reezocar, Corum, et Smartch</p>
               </div>
             </div>
             <p>
-              Bonjour 👋. Je suis Julien Lucas, développeur freelance front-end, mais aussi full-stack, basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
+              👋 Bonjour. Je suis Julien Lucas, lead développeur front-end freelance. Mais aussi dev full-stack. Basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
               {/* J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi. */}<br/>
               Je souhaite faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
             <h3>Mes technos</h3>
-            <p className="mb-10">React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p><br/><br/>
-            <p>
-              De mes expériences, je constate que c'est la même chose qui revient : <br/><br/>
-              <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget de vos projets</span>. Mais au contraire les réduire</strong>.<br/><br/>
-              Sur une app chargée en fonctionnalités, <strong>ça doit passer par la mise en place de Clean Architecture</strong> : pour un front-end ou back fortement scalable, découplé où il est aisé de modifier/remplacer des features/libs/frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
+            <p>React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p><br/>
+            <p className="pt-4 mb-20"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon CV et parcours pro sur Linkedin</a></p>
+            <p className="mb-30">
+              De mes expériences, je l'ai constaté : <br/><br/>
+              <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget des projets</span>. Mais au contraire les réduire</strong>.<br/><br/>
+              Sur une app chargée en fonctionnalités, <strong>ça doit passer par une approche Agile focus sur la satisfaction client et la mise en place de Clean Architecture</strong> : pour un front et back fortement scalables, au code découplé, où il est aisé de modifier/remplacer des features et frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
               Vous êtes CEO, fondateur de startup, PO ou CTO?<br/>
               J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo come dev front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
             </p>
-            <p className="pt-4 mb-10"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon CV et parcours pro sur Linkedin</a></p>
           </div>
           <Button texte={'texte1'} />
         </div>
       </section>
-
-      <Temoignages />
 
       <Offres />
 
@@ -116,9 +116,9 @@ export default function Home() {
 
       <div id="footer" className="relative z-30 flex flex-col items-center justify-between w-full bg-slate-100 pt-20 pb-52">
         <Accompagnement />
-        <h2 className="mt-60"><strong>Vous êtes une startup et avez un projet</strong></h2>
-        <h2 className="-mt-16 mb-8"><strong>d'app, de MVP ou de refonte ?</strong></h2>
-        <h3 className="small -mt-1 text-center mb-8">Discutons de votre projet, 30min pour voir ensemble comment atteindre vos objectifs ! 🤝</h3>
+        <h2 className="mt-60"><strong>Vous avez un projet</strong></h2>
+        <h2 className="-mt-16 mb-8"><strong>d'app web, de MVP ou de refonte ?</strong></h2>
+        <h3 className="small -mt-1 text-center mb-8">Discutons de votre projet 30min, je vous accompagne<br/> pour voir ensemble comment atteindre vos objectifs ! 🤝</h3>
         {/* <h2 className="big mt-60 -mb-3">Vous êtes prêt,<br/> on prends un <strong>café virtuel?</strong></h2> */}
         {/* <p className="text-center">66% of technology projects (based on the analysis of 50,000 projects globally) end in partial or total failure (source:) <br/>Les projets agiles ont aussi 3 fois plus de chances de réussir</p> */}
         <Button texte={'texte4'} />
