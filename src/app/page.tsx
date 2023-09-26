@@ -39,7 +39,7 @@ export default function Home() {
         <div id="section-1" className="px-6 flex flex-col pb-40 w-full items-center justify-between">
           <div className="max-w-screen-2xl">
             {/* <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2> */}
-            <h2 className="big">Développons une app de qualité, <strong><span>en maîtrisant vos coûts.</span></strong><br/>Mieux,<strong> en les réduisants</strong>, grâce à la Clean Architecture<br/> et une haute qualité de code</h2>
+            <h2 className="big">Développons une app de qualité <strong><span>en maîtrisant vos coûts.</span></strong><br/>Mieux,<strong> en les réduisants</strong> grâce à la Clean Architecture<br/> et une haute qualité de code</h2>
           </div>
 
           <div className="max-w-5xl w-full">
@@ -58,7 +58,6 @@ export default function Home() {
             </div>
             <p>
               👋 Bonjour. Je suis Julien Lucas, lead développeur front-end freelance. Mais aussi dev full-stack. Basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
-              {/* J'ai été précédemment développeur front/Wordpress en agence durant 4 ans, en freelance aussi. */}<br/>
               Je souhaite faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
             <h3>Mes technos</h3>
