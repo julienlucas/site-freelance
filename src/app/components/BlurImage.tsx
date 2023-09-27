@@ -11,7 +11,7 @@ export default function BlurImage({ src, width, height, className, style }: { sr
         src={src}
         layout="raw"
         style={{ objectFit: "cover", ...style }}
-        loading="lazy"
+        loading="eager"
         width={width}
         height={height}
         className={`
@@ -23,6 +23,7 @@ export default function BlurImage({ src, width, height, className, style }: { sr
               : "scale-100 blur-0 grayscale-0"
           })`}
         onLoadingComplete={() => setLoading(false)}
+        priority
       />
     </div>
   );
