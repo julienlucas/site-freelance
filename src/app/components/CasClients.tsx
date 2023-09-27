@@ -91,6 +91,56 @@ export default function CasClients() {
           </div>
         </div>
 
+        {/* <div id="cas-client-3" className="relative w-full pb-24 px-6 flex flex-col items-center justify-between" style={{backgroundColor: '#fcfbf3'}}>
+          <div className="max-w-screen-lg w-full h-fit sm:grid block grid-cols-2 gap-20">
+            <div className="pb-8 sm:max-w-xl w-full h-full sm:flex block flex-col">
+              <div className="sm:flex block items-center justify-center h-full w-full">
+                <div className="block">
+                  <div className="pt-10 -mb-12 flex flex-row w-full">
+                    <div className="basis-1/4">
+                      <div className="flex items-center justify-center h-32 w-32 py-3 px-3 bg-blue">
+                        <BlurImage
+                          src="/logo-pushtalent.png"
+                          width={50}
+                          height={70}
+                        />
+                      </div>
+                    </div>
+                    <div className="basis-3/4 h-full">
+                      <div className="inline-block -mt-7">
+                        <h4 className="w-auto inline-block">Small App</h4>
+                      </div>
+                      <p><strong>Dev front-end</strong></p>
+                    </div>
+                  </div>
+                  <p className="title mono"><span>Problèmes</span></p>
+                  <p className="mono">Smartch m’avait solicité via Malt en 2022 pour rénover leur app MVP, le CTO souhaitait reprendre le MVP, ainsi que changer des technos (ajout de Redux, RTK Query, GraphQL). J’ai proposé de le faire en méttant en place une architecture manquante. Pour découpler les responsabilités du code, le rendre modulaire, <u>un code fortement scalable et maintenable</u>.</p>
+                  <p className="title mono"><span>Objectifs</span></p>
+                  <p className="mono">Développer un MVP démo rénové + quelque features supplémentaires de la roadmap sous 4 mois.</p>
+                  <p className="title mono"><span>Technos</span></p>
+                  <p className="mono">React</p>
+                </div>
+              </div>
+            </div>
+            <div className="h-full flex sm:justify-end justify-center">
+              <div>
+                <BlurImage
+                  className="rounded-xl"
+                  src="/pushtalent.jpg"
+                  width={500}
+                  height={10}
+                />
+                <BlurImage
+                  className="rounded-xl"
+                  src="/pushtalent-2.jpg"
+                  width={500}
+                  height={10}
+                />
+              </div>
+            </div>
+          </div>
+        </div> */}
+
         <Button texte={'texte1'} />
       </div>
     </section>
