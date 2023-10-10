@@ -57,7 +57,7 @@ export default function Home() {
             </div>
             <p>
               👋 Bonjour. Je suis Julien Lucas, lead développeur front-end freelance. Mais aussi dev full-stack. Basé à Avignon. Depuis 5 ans j’ai acquis de solides compétences en conception logiciel avec des startups et scale-ups françaises.<br/>
-              Je souhaite désromais faire profiter de mon expérience de dev d'app à mes clients directement. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
+              Je souhaite désormais faire profiter de mon expérience de dev d'app à mes clients directement. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
             <p className="pt-16 mb-20"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon CV et parcours pro sur Linkedin</a></p>
             <p>

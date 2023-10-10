@@ -9,7 +9,7 @@ export default function Offres() {
 
       <section id="offres" className="px-6 flex flex-col pt-52 pb-8 w-full items-center justify-between">
         <div className="max-w-screen-xl w-full">
-          <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J'ai <strong>les méthodes</strong> pour dev une app de qualité, scalable, et sans exploser votre budget.</h2>
+          <h2 className="text-center">Vous avez <strong>des objectifs</strong> de croissance.<br/> J'ai <strong>les méthodes</strong> pour dev une app de qualité, scalable, et en prenant soin de votre budget.</h2>
         </div>
         <div className="max-w-screen-md w-full items-center justify-between">
           <p className="text-center mono"><strong>Vous êtes CEO, fondateur de startup, PO ou CTO</strong>, tout au long de notre collaboration ou via votre équipe technique, vous obtiendrez des estimations de fonctionnalités et d'apps suffisament fines pour que vous puissisez prévoir et anticiper.</p>
