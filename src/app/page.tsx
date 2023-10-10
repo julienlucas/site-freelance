@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import Script from 'next/script'
 import BlurImage from './components/BlurImage'
 import Header from './components/Header'
@@ -39,7 +38,7 @@ export default function Home() {
         <div id="section-1" className="px-6 flex flex-col pb-40 w-full items-center justify-between">
           <div className="max-w-screen-2xl">
             {/* <h2 className="big">Développer votre app <strong><span>sans exploser vos budgets.</span></strong><br/>J’ai les méthodes et la qualité de code <strong>pour plus que ça :<br/> les réduire.</strong></h2> */}
-            <h2 className="big">Développons une app de qualité <strong><span>en maîtrisant vos coûts.</span></strong><br/>Mieux,<strong> en les réduisants</strong> grâce à la Clean Architecture<br/> et une haute qualité de code</h2>
+            <h2 className="big">Développons une app de qualité <strong><span>en maîtrisant vos coûts.</span></strong><br/>Mieux,<strong> en les réduisants</strong> grâce à la méthode en Clean Architecture<br/> et une haute qualité de code</h2>
           </div>
 
           <div className="max-w-5xl w-full">
@@ -53,23 +52,32 @@ export default function Home() {
               </div>
               <div className="basis-2/3 -mt-6 pl-4 sm:pl-1">
                 <h3 className="name">Julien Lucas</h3>
-                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur front-end React 5 ans d'expérience dans la tech<br/>Ex: Iziwork (French Next 120 🇫🇷), Sewan, Reezocar, Corum, et Smartch</p>
+                <p className="title relative text-gray-400 -mt-4 mb-4 name mono">Développeur front-end React 5 ans d'expérience dans la tech<br/>Ex: Iziwork (French Next 120 🇫🇷), Sewan (Opérateur Telecom 100% Cloud), Reezocar (2 millions de visites/mois), Corum, et Smartch</p>
               </div>
             </div>
             <p>
-              👋 Bonjour. Je suis Julien Lucas, lead développeur front-end freelance. Mais aussi dev full-stack. Basé à Avignon. Depuis 5 ans j’ai pu gagner en expérience avec des startups early, middle stage et en scale-up.<br/>
-              Je souhaite faire profiter de mon expérience de dev d'app aussi directement que possible à mes clients, sans intermédiaires. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
+              👋 Bonjour. Je suis Julien Lucas, lead développeur front-end freelance. Mais aussi dev full-stack. Basé à Avignon. Depuis 5 ans j’ai acquis de solides compétences en conception logiciel avec des startups et scale-ups françaises.<br/>
+              Je souhaite désromais faire profiter de mon expérience de dev d'app à mes clients directement. M'assurer qu'ils réussissent leur projet, et les amener à la croissance.
             </p>
-            <h3>Mes technos</h3>
-            <p>React (5ans), Redux Toolkit (3ans), Redux Saga, TypeScript (3ans), React Native / Expo (1an), Stencils.js (pour les Design Systems), Appolo GraphQL (2ans), Node (1an)</p><br/>
-            <p className="pt-4 mb-20"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon CV et parcours pro sur Linkedin</a></p>
-            <p className="mb-30">
+            <p className="pt-16 mb-20"><a href="https://www.linkedin.com/in/julien-lucas-jl/" target="_blank">Mon CV et parcours pro sur Linkedin</a></p>
+            <p>
               De mes expériences, je l'ai constaté : <br/><br/>
               <strong>La haute qualité de code est <span>la seule vraie condition pour ne pas exploser le budget des projets</span>. Mais au contraire les réduire</strong>.<br/><br/>
               Sur une app chargée en fonctionnalités, <strong>ça doit passer par une approche Agile focus sur la satisfaction client et la mise en place de Clean Architecture</strong> : pour un front et back fortement scalables, au code découplé, où il est aisé de modifier/remplacer des features et frameworks, d’appliquer des tests unitaires et end-to-end. Et donc avoir une app flexible, robuste et maintenable.<br/><br/>
               Vous êtes CEO, fondateur de startup, PO ou CTO?<br/>
               J’interviens en équipe technique comme dev front-end, ou lead front.<br/>Ou en solo come dev front ou full-stack. Prêt à monter une équipe de devs si nécessaire.
             </p>
+            <h3>Je maîtrise particulièrement bien ces technos :</h3>
+            <ul className="columns-2 mb-32">
+              <li><p>React (5ans)</p></li>
+              <li><p>Redux Toolkit (3ans)</p></li>
+              <li><p>Redux Saga</p></li>
+              <li><p>TypeScript (3ans)</p></li>
+              {/* <li><p>React Native / Expo (1an)</p></li> */}
+              <li><p>Stencils.js (pour les UI Kit)</p></li>
+              <li><p>Appolo GraphQL (2ans)</p></li>
+              <li><p>Node / Nest</p></li>
+            </ul>
           </div>
           <Button texte={'texte1'} />
         </div>
@@ -82,11 +90,11 @@ export default function Home() {
           <div className="max-w-screen-lg w-full grid md:grid-cols-3 flex md:gap-16 gap-0">
             <div className="pb-8 h-fit flex flex-col">
               <h4><span>#</span> Dev Front-end</h4>
-              <p className="mono">Créeons une app React fortement scalable, robuste, maintenable, modulaire, en Clean Architecture</p>
+              <p className="mono">Créeons une app React fortement scalable, robuste, maintenable, modulaire, en Clean Archi (flexibilité, maintenance aisé, scalabilité du code)</p>
             </div>
             <div className="pb-8 h-fit flex flex-col">
-              <h4><span>#</span> Dev Back/d’API</h4>
-              <p className="mono">Votre back-end/votre API REST/GraphQL (Nest) scalable pour votre app</p>
+              <h4><span>#</span> Dev Back-end</h4>
+              <p className="mono">Votre API REST ou GraphQL (en Node/Nest.js) archtecturé en clean archi (flexibilité, maintenance aisé, scalabilité du code) pour votre app</p>
             </div>
             <div className="pb-8 h-fit flex flex-col">
               <h4><span>#</span> App MVP</h4>
@@ -105,7 +113,7 @@ export default function Home() {
             </div>
             <div className="pb-8 h-fit flex flex-col">
               <h4><span>#</span> Pratiques de dev</h4>
-              <p className="mono">Clean Architecture, DDD, Design Patterns, méthodes de refacto, rédaction des tests unitaires, d'intégration et end-to-end, DevOps CI/CD</p>
+              <p className="mono">Clean Architecture, DDD, Design Patterns, méthodes de refacto, stratégie efficace de tests unitaires, d'intégration et end-to-end, DevOps mise en place de CI/CD, mes pratiques sont solides</p>
             </div>
           </div>
         </div>
