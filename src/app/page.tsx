@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import SocialMediaIcons from "./components/SocialIcons";
 import Form from "./components/Form";
+import YouTubeVideo from "./components/YoutTubeVideo";
 
 export default function Home() {
   const [videos, setVideos] = useState<any>();
@@ -50,7 +51,7 @@ export default function Home() {
             En tant que développeur front-end freelance depuis 6 ans (mais aussi full stack) j’aide les startups à développer des saas qui rencontrent la demande et besoins de leurs utilisateurs.<br/><br/>
             Mais je suis également créateur de contenu, sur Youtube ou Linkedin principalement.<br/>
             Où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.
-            Je travaille avec des recruteurs, mais aussi en direct.
+            Je travaille avec des recruteurs, mais aussi en direct avec les startups.
           </p>
         </div>
         <a href="#formation"><button className="primary" data-title="Ma formation devs">Ma formation devs</button></a>
@@ -242,7 +243,7 @@ export default function Home() {
 
           <div className="carousel">
             <div className="flex grid-rows-5 gap-4">
-              {videos?.map((video: any) => YouTubeVideo(video))}
+              {videos?.map((video: any) => <YouTubeVideo video={video} />)}
             </div>
           </div>
         </section>
@@ -283,23 +284,4 @@ export default function Home() {
       </footer>
     </main>
   );
-}
-
-export function YouTubeVideo(video: any) {
-  return (
-    <div className="thumbnail bg-gray-200">
-      <div className="relative h-48 w-full bg-white">
-        <Image
-          src={video?.snippet?.thumbnails?.high?.url}
-          alt={video?.snippet?.title}
-          layout="fill"
-          objectFit="cover"
-          draggable="false"
-        />
-      </div>
-      <div className="h-28 bg-white px-4 -mt-4">
-        <h3 className="pt-4">{video?.snippet?.title}</h3>
-      </div>
-    </div>
-  )
 }
