@@ -139,8 +139,13 @@ section#youtube button.primary {
 }
 
 .logo {
+  color: #111111;
   font-weight: 800;
   font-family: var(--font-unbounded);
+}
+
+.logo.white {
+  color: white;
 }
 
 span.title {
@@ -155,17 +160,19 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-  color: #1e293b;
+  color: #334155;
 }
 
 h1 {
   margin-top: 5px;
   font-size: 19px;
   font-weight: 400;
+  font-family: var(--font-manrope);
 }
 
 h2 {
-  font-size: 22px;
+  margin-top: 2px;
+  font-size: 24px;
   font-weight: 700;
   font-family: var(--font-unbounded);
   margin-bottom: 30px;
@@ -173,7 +180,7 @@ h2 {
 
 h2.h2-b {
   margin-bottom: 20px;
-  font-weight: 900;
+  font-weight: 700;
   font-family: var(--font-manrope);
 }
 
@@ -198,22 +205,22 @@ h2.no-margin {
   position: absolute;
   inset: 0px;
   padding: 0 20px 2px;
-  transform: translate(8px, 8px);
-  background: linear-gradient(90deg, #05181d 10%, #4a38ad 40%, #8b5cf6 100%);
+  transform: translate(9px, 9px);
+  background: linear-gradient(90deg, #05181d 10%, #4a38ad 94%, #8b5cf6 100%);
   z-index: -1;
 }
 
 button.primary {
   position: relative;
-  margin: 30px 0 0 10px;
-  height: 45px;
+  margin: 40px 0 0 10px;
+  height: 50px;
   padding: 0 40px;
-  background: linear-gradient(90deg, #05181d 10%, #4a38ad 40%, #8b5cf6 100%);
-  transition: all .1s;
+  background: linear-gradient(90deg, #05181d 10%, #4a38ad 70%, #8b5cf6 100%);
+  transition: all .3s;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-  font-family: var(--font-unbounded);
-  font-weight: 400;
-  font-size: 13px;
+  font-family: var(--font-manrope);
+  font-weight: 600;
+  font-size: 16px;
 }
 
 button.primary.borders::before {
@@ -225,13 +232,13 @@ button.primary::before {
   position: absolute;
   inset: 0px;
   padding: 0 40px 2px;
-  transform: translate(-8px, -8px);
+  transform: translate(-9px, -9px);
   z-index: 1;
   display: flex;
   align-items: center;
   background: black;
   color: white;
-  transition: all .2s;
+  transition: all .3s;
   transition-timing-function: linear(0.1, 0.7, 1.0, 0.1);
 }
 
@@ -241,23 +248,22 @@ button.primary:hover::before {
 
 button.secondary {
   position: relative;
-  top: -8px;
+  top: -11px;
   margin-left: 10px;
   padding: 0 20px ;
   height: 45px;
-  font-family: var(--font-unbounded);
-  font-weight: 400;
-  font-size: 13px;
+  font-family: var(--font-manrope);
+  font-weight: 600;
+  font-size: 16px;
   transition: all .3s;
   transition-timing-function: linear(0.1, 0.7, 1.0, 0.1);
 }
 
 button.secondary::after {
   position: relative;
-  top: 2px;
   margin-left: 10px;
   font-size: 20px;
-  content: '\27A9'
+  content: '\2192'
 }
 
 button.secondary:hover {
@@ -267,9 +273,9 @@ button.secondary:hover {
 span.sub-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   font-family: var(--font-manrope);
-  letter-spacing: .1em;
+  letter-spacing: .15em;
 }
 
 .thumbnail {

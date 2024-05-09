@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import SocialMediaIcons from "./components/SocialIcons";
 import Form from "./components/Form";
@@ -14,9 +14,9 @@ export default function Home() {
     return data.json();
   };
 
-  // useEffect(() => {
-  //   getYoutubeData().then(res => setVideos(res.items));
-  // }, [])
+  useEffect(() => {
+    getYoutubeData().then(res => setVideos(res.items));
+  }, [])
 
   return (
     <main className="flex flex-col items-center justify-between">
@@ -48,19 +48,20 @@ export default function Home() {
         </div>
         <div className="mt-12">
           <p>
-            En tant que développeur front-end freelance depuis 6 ans (mais aussi full stack) j’aide les startups à développer des saas qui rencontrent la demande et besoins de leurs utilisateurs.<br/><br/>
+            En tant que développeur front-end freelance depuis 6 ans (mais aussi full stack) j’aide les startups à développer des saas qui rencontrent la demande et besoins de leurs utilisateurs.<br/>
+            Précédemment j'avais été dev Wordpress freelance durant 4 ans.<br/>
+            Je travaille avec des recruteurs, mais aussi en direct avec les startups.<br/>
             Mais je suis également créateur de contenu, sur Youtube ou Linkedin principalement.<br/>
             Où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.
-            Je travaille avec des recruteurs, mais aussi en direct avec les startups.
           </p>
         </div>
         <a href="#formation"><button className="primary" data-title="Ma formation devs">Ma formation devs</button></a>
-        <a href="#demande"><button className="secondary">Un besoin dev? Contactez-moi</button></a>
+        <a href="#demande"><button className="secondary">Un besoin en dev? Contactez-moi</button></a>
       </section>
 
       <section className="mt-20">
         <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">J'ai travaillé dans des start-ups et scale-ups à succès</span>
-        <h2 className="text-left">Mes ex clients</h2>
+        <h2 className="text-left">Ex clients</h2>
         <div className="flex grid-rows-5 gap-4 -mt-8">
           <div className="relative max-w-32 w-full h-20">
             <Image
@@ -165,19 +166,21 @@ export default function Home() {
         </div>
       </section> */}
 
-      <section className="mt-20">
+      <section className="mt-20" id="formation">
         <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Formes-toi comme développeur</span>
         <h2 className="text-left">Mon programme de formation</h2>
         <div className="box-shadow-image relative bg-gray-100 h-80 w-full">
-          <Image
-            src="/formation-cleanarchi.jpg"
-            alt="Développeur front-end React / Node freelance / Formateur clean architecture"
-            layout="fill"
-            objectFit="cover"
-            draggable="false"
-          />
+          <a href="https://formation-cleanarchitecture.com" target="_blank">
+            <Image
+              src="/formation-cleanarchi.jpg"
+              alt="Développeur front-end React / Node freelance / Formateur clean architecture"
+              layout="fill"
+              objectFit="cover"
+              draggable="false"
+            />
+          </a>
         </div>
-        <h2 className="mt-8 h2-b">Formation Clean Architecture — Passes au niveau supérieur en développement</h2>
+        <h2 className="mt-8 h2-b">Formation Clean Architecture — Deviens un véritable développeur senior</h2>
         <p>
           La formation qui te permettra de passer véritablement senior.
           La seule formation du marché pour pratiquer la Clean Architecture sur 3 des frameworks pilliers du front-end : Redux Toolkit, RTKQ et React Query.
@@ -188,7 +191,7 @@ export default function Home() {
 
       <section className="mt-20" id="cas-clients-freelance">
         <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création, refonte, restructuration de saas</span>
-        <h2>Sélection d'ex projets</h2>
+        <h2>Sélection de projets</h2>
         <div className="relative image-case-study float-left w-4/12">
           <Image
             src="/andragogue.webp"
@@ -200,7 +203,7 @@ export default function Home() {
         </div>
         <div className="float-right w-7/12">
           <h2 className="h2-b no-margin">Smartch</h2>
-          <p>Création / restructuration saas early stage</p>
+          <p>Création / restructuration saas en start-up early stage</p>
           <h3>Le besoin</h3>
           <p>Smartch m’avait solicité via Malt en 2022 pour rénover leur app MVP, le CTO souhaitait reprendre le MVP, ainsi que changer des technos (ajout de Redux, RTK Query, GraphQL). J’ai proposé de le faire en méttant en place une architecture manquante. Pour découpler les responsabilités du code, le rendre modulaire, un code fortement scalable et maintenable.</p>
           <h3>Technos</h3>
@@ -211,7 +214,7 @@ export default function Home() {
       <section className="mt-20">
         <div className="float-left w-7/12">
           <h2 className="h2-b no-margin">Sewan</h2>
-          <p>Développeur front dans équipe de 40 devs en scaleup.</p>
+          <p>Développeur front dans équipe de 40 devs en scale-up</p>
           <h3>Le besoin</h3>
           <p>En 2021, Sewan, scale-up telecom, est en pleine refonte de Sophia son ancien SaaS en PHP/JavaScript. J’ai pu rejoindre le projet via Crème de la crème (la plateforme freelance). Je suis intervenu en tant que développeur front-end React en sein de l'équipe de 40 devs. Avec 30 membres au design et produit. Dev géré par des PO en Agile Scrum.</p>
           <h3>Technos</h3>
@@ -230,7 +233,7 @@ export default function Home() {
       </section>
 
       <section>
-        <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Un besoin dev? Contactez-moi">Un besoin dev? Contactez-moi</button></a>
+        <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Un besoin dev? Contactez-moi">Un besoin en dev? Contactez-moi</button></a>
       </section>
 
       {videos?.length && (
@@ -259,7 +262,7 @@ export default function Home() {
 
         <div className="container">
           <div className="float-left">
-            <p className="logo float-left text-white mt-16"><a href="/">Julien Lucas</a></p>
+            <p className="logo white float-left text-white mt-16"><a href="/">Julien Lucas</a></p>
             <a className="relative mt-24 pt-3 flex text-white" href="mailto:hello@julienlucas.com">
               <Image
                 className="mr-2"

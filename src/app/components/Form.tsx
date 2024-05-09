@@ -50,7 +50,7 @@ export default function Form() {
             </div>
             <div className="relative z-0 w-full mb-5 group">
               <label htmlFor="email">Email *</label>
-              <input type="email" name="email" className="block py-2.5 w-full" placeholder="prénom@entreprise.com" required />
+              <input type="email" name="email" className="block py-2.5 w-full" placeholder="prenom@entreprise.com" required />
             </div>
           </div>
           <div className="grid md:grid-cols-2 md:gap-6">
