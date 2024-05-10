@@ -14,9 +14,9 @@ export default function Home() {
     return data.json();
   };
 
-  useEffect(() => {
-    getYoutubeData().then(res => setVideos(res.items));
-  }, [])
+  // useEffect(() => {
+  //   getYoutubeData().then(res => setVideos(res.items));
+  // }, [])
 
   return (
     <main className="flex flex-col items-center justify-between">
@@ -236,7 +236,7 @@ export default function Home() {
         <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Un besoin dev? Contactez-moi">Un besoin en dev? Contactez-moi</button></a>
       </section>
 
-      {videos?.length && (
+      {/* {videos?.length && (
         <section className="mt-20 -mb-32" id="youtube">
           <div className="container">
             <a href="https://youtube.com/c/julienlucas" target="_blank"><button className="primary float-right" data-title="Voir la chaîne">Voir la chaîne</button></a>
@@ -250,7 +250,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      )}
+      )} */}
 
       <footer className="footer mt-20 bg-black w-full py-6" id="demande">
         <div className="container">
