@@ -128,6 +128,10 @@ section#youtube button.primary {
   height: 560px;
 }
 
+.formation {
+  height: 460px;
+}
+
 .image-case-study img {
   filter: grayscale(100%);
   transition: all .5s;
