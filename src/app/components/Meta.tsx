@@ -46,14 +46,14 @@ export default function Meta() {
         name="description"
         content="Développeur front-end React et Node freelance créateur de solutions saas pour startups / Formateur devs / Créateur de contenu"
       />
-      <meta property="og:image" content="https://julienlucas.ovh/wp-content/uploads/2024/05/og-image-1.jpg" />
+      <meta property="og:image" content="https://julienlucas.ovh/wp-content/uploads/2024/05/og-image-2.jpg" />
 
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="@julienlucasjl" />
       <meta name="twitter:title" content="Julien Lucas | Développeur / Formateur / Créateur de contenu" />
       <meta name="twitter:description" content="Développeur front-end React et Node freelance créateur de solutions saas pour startups / Formateur devs / Créateur de contenu" />
-      <meta name="twitter:image" content="https://julienlucas.ovh/wp-content/uploads/2024/05/og-image-1.jpg" />
+      <meta name="twitter:image" content="https://julienlucas.ovh/wp-content/uploads/2024/05/og-image-2.jpg" />
       <script type="application/ld+json">
         {`
         {
