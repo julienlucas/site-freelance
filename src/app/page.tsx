@@ -36,7 +36,7 @@ export default function Home() {
         <div className="pt-6">
           <Image
             className="rounded-full float-left -mt-2 mr-8"
-            src="/julienlucas.jpg"
+            src="/julienlucas-c.jpg"
             alt="Développeur front-end React / Node freelance / Formateur clean architecture"
             width={150}
             height={150}
