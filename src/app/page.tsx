@@ -52,8 +52,8 @@ export default function Home() {
             Précédemment j'avais été dev Wordpress freelance durant 4 ans.<br/>
             Je travaille avec des recruteurs, mais aussi en direct avec les startups.<br/>
             Mais je suis également créateur de contenu, sur Youtube ou Linkedin principalement.<br/>
-            Où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.
-          </p>
+            Où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.<br/><br/>
+            Mes technos: React / Next.js / Redux / React Query / GraphQL / TypeScript / Nest / Node</p>
         </div>
         <a href="#formation"><button className="primary" data-title="Ma formation devs">Ma formation devs</button></a>
         <a href="#demande"><button className="secondary">Un besoin en dev? Contactez-moi</button></a>
