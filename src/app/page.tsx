@@ -172,7 +172,7 @@ export default function Home() {
         <a href="https://formation-cleanarchitecture.com" target="_blank">
           <div className="relative -mt-1 box-shadow-image bg-gray-100 h-80 bg-[url('/formation-cleanarchi.jpg')] bg-cover" />
         </a>
-        <h2 className="mt-8 h2-b">Formation Clean Architecture — Deviens un véritable développeur senior</h2>
+        <h2 className="mt-8 h2-b">Formation Clean Architecture — Devenir un véritable développeur senior</h2>
         <p>
           La formation qui te permettra de passer véritablement senior.
           La seule formation du marché pour pratiquer la Clean Architecture sur 3 des frameworks pilliers du front-end : Redux Toolkit, RTKQ et React Query.
