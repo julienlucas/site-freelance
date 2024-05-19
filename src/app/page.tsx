@@ -170,7 +170,7 @@ export default function Home() {
         <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Formes-toi comme développeur</span>
         <h2 className="text-left">Mon programme de formation</h2>
         <a href="https://formation-cleanarchitecture.com" target="_blank">
-          <div className="relative -mt-1 box-shadow-image bg-gray-100 h-80 bg-[url('/formation-cleanarchi.jpg')] bg-cover" />
+          <div className="relative -mt-1 box-shadow-image bg-gray-100 h-80 bg-[url('/formation-cleanarchi-2.jpg')] bg-cover" />
         </a>
         <h2 className="mt-8 h2-b">Formation Clean Architecture — Deviens un véritable développeur senior</h2>
         <p>
