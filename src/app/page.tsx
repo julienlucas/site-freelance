@@ -274,7 +274,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="container">
-          <p className="text-gray-500 text-sm">Tous droits réservés @ 2024 Julien LUCAS</p>
+          <p className="text-gray-500 text-sm">Tous droits réservés @ 2024 Julien LUCAS - Numéro de Siret: 79439712500012</p>
         </div>
       </footer>
     </main>
