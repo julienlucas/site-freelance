@@ -44,7 +44,7 @@ export default function Home() {
             draggable="false"
           />
           <span className="title font-unbounded">Hello, moi c'est Julien 👋</span>
-          <h1>Développeur front-end React et Node freelance créateur de solutions saas pour startups / Formateur / Créateur de contenu</h1>
+          <h1>Développeur front-end React / Fullstack freelance créateur de solutions saas pour startups / Formateur / Créateur de contenu</h1>
         </div>
         <div className="mt-12">
           <p>
