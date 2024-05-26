@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={`${unbounded.variable} ${manrope.variable}`}>
         <Script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=G-Y3PM4DBLGR`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-LZL71FQRRE`}
           strategy="afterInteractive"
         />
         <Script
@@ -30,7 +30,7 @@ export default function RootLayout({
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-Y3PM4DBLGR', {
+          gtag('config', 'G-LZL71FQRRE', {
             page_path: window.location.pathname,
           });
         `,
