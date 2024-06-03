@@ -133,7 +133,7 @@ section#youtube button.primary {
 }
 
 .image-case-study img {
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: all .5s;
   transition-timing-function: linear(0.1, 0.7, 1.0, 0.1);
 }
@@ -160,7 +160,7 @@ span.title {
 
 h1, h2, h3, h4, h5 {
   color: #030712;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 p {
@@ -169,7 +169,7 @@ p {
 
 h1 {
   margin-top: 5px;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
   font-family: var(--font-manrope);
 }
@@ -190,13 +190,14 @@ h2.h2-b {
 
 h3 {
   margin-top: 20px;
+  margin-bottom: 5px;
   font-size: 18px;
   font-weight: 700;
   font-family: var(--font-manrope);
 }
 
 h2.no-margin {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .box-shadow-image {

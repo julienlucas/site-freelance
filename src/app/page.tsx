@@ -21,10 +21,23 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       <section className="pt-4">
-        <p className="logo float-left"><a href="/">Julien Lucas</a></p>
-        <nav className="mt-1 float-right">
+        <p className="logo float-left flex">
+          <a href="/">
+          <Image
+            className="rounded-full float-left -mt-1 mr-2"
+            src="/julienlucas-c.jpg"
+            alt="Développeur front-end React / Node freelance / Formateur clean architecture"
+            width={35}
+            height={35}
+            priority
+            draggable="false"
+          />
+          Julien Lucas
+          </a>
+        </p>
+        <nav className="mt-1.5 float-right">
           <ul>
-            <li><a href="#cas-clients-freelance">Cas clients freelance</a></li>
+            <li><a href="#cas-clients-freelance">Cas clients</a></li>
             <li><a href="#formation">Ma formation</a></li>
             <li><a href="https://youtube.com/c/julienlucas" target="_blank">Ma chaîne YouTube</a></li>
             <SocialMediaIcons />
@@ -36,7 +49,7 @@ export default function Home() {
         <div className="pt-6">
           <Image
             className="rounded-full float-left -mt-2 mr-8"
-            src="/julienlucas-c.jpg"
+            src="/julienlucas-d.jpg"
             alt="Développeur front-end React / Node freelance / Formateur clean architecture"
             width={150}
             height={150}
@@ -44,15 +57,15 @@ export default function Home() {
             draggable="false"
           />
           <span className="title font-unbounded">Hello, moi c'est Julien 👋</span>
-          <h1>Développeur front-end React / Fullstack freelance créateur de solutions saas pour startups / Formateur / Créateur de contenu</h1>
+          <h1>Développeur front-end React / Fullstack freelance, je crée super vite des solutions saas fiables pour les startups / Formateur / Créateur de contenu</h1>
         </div>
         <div className="mt-12">
           <p>
-            En tant que développeur front-end freelance depuis 6 ans (mais aussi full stack) j’aide les startups à développer des saas qui rencontrent la demande et besoins de leurs utilisateurs.<br/>
+            En tant que développeur front-end freelance depuis 6 ans (mais aussi full stack) j’aide les startups à développer rapidement des saas fiables qui rencontrent la demande et besoins de leurs utilisateurs.<br/>
             Précédemment j'avais été dev Wordpress freelance durant 4 ans.<br/>
-            Je travaille avec des recruteurs, mais aussi en direct avec les startups.<br/>
-            Mais je suis également créateur de contenu, sur Youtube ou Linkedin principalement.<br/>
-            Où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.<br/><br/>
+            Je travaille en direct avec les startups, mais aussi aevc des recruteurs.<br/>
+            Je suis également créateur de contenu, sur Youtube et Linkedin principalement.<br/>
+            Là où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.<br/><br/>
             Mes technos: React / Next.js / Redux / React Query / GraphQL / TypeScript / Nest / Node</p>
         </div>
         <a href="#formation"><button className="primary" data-title="Ma formation devs">Ma formation devs</button></a>
@@ -182,8 +195,8 @@ export default function Home() {
       </section>
 
       <section className="mt-20" id="cas-clients-freelance">
-        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création, refonte, restructuration de saas</span>
-        <h2>Sélection de projets</h2>
+        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création de saas, refonte, restructuration, mvp</span>
+        <h2>Réalisez votre produit</h2>
         <div className="relative image-case-study float-left w-4/12">
           <Image
             src="/andragogue.webp"
@@ -195,8 +208,8 @@ export default function Home() {
         </div>
         <div className="float-right w-7/12">
           <h2 className="h2-b no-margin">Smartch</h2>
-          <p>Création / restructuration saas en start-up early stage</p>
-          <h3>Le besoin</h3>
+          <p><strong>Création / restructuration d'un saas v1 en start-up early stage</strong></p>
+          <h3>Challenge & Objectifs</h3>
           <p>Smartch m’avait solicité via Malt en 2022 pour rénover leur app MVP, le CTO souhaitait reprendre le MVP, ainsi que changer des technos (ajout de Redux, RTK Query, GraphQL). J’ai proposé de le faire en méttant en place une architecture manquante. Pour découpler les responsabilités du code, le rendre modulaire, un code fortement scalable et maintenable.</p>
           <h3>Technos</h3>
           <p>React, Redux Toolkit, RTKQuery, GraphQL, TypeScript, Clean Architecture</p>
@@ -206,9 +219,9 @@ export default function Home() {
       <section className="mt-20">
         <div className="float-left w-7/12">
           <h2 className="h2-b no-margin">Sewan</h2>
-          <p>Développeur front dans équipe de 40 devs en scale-up</p>
-          <h3>Le besoin</h3>
-          <p>En 2021, Sewan, scale-up telecom, est en pleine refonte de Sophia son ancien SaaS en PHP/JavaScript. J’ai pu rejoindre le projet via Crème de la crème (la plateforme freelance). Je suis intervenu en tant que développeur front-end React en sein de l'équipe de 40 devs. Avec 30 membres au design et produit. Dev géré par des PO en Agile Scrum.</p>
+          <p><strong>Développeur front dans une team de 40 devs pour refonte complète d'un saas</strong></p>
+          <h3>Challenge & Objectifs</h3>
+          <p>En 2021, Sewan, scale-up telecom, est en pleine refonte de son ancien SaaS en PHP/JavaScript. J’ai pu rejoindre le projet via Crème de la crème (la plateforme freelance). Je suis intervenu en tant que développeur front-end React en sein de l'équipe de 40 devs. Avec 30 membres au design et produit. Dev géré par des PO en Agile Scrum.</p>
           <h3>Technos</h3>
           <p>React, Redux, Apollo GraphQL, Clean Architecture</p>
         </div>
@@ -225,7 +238,7 @@ export default function Home() {
       </section>
 
       <section>
-        <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Un besoin dev? Contactez-moi">Un besoin en dev? Contactez-moi</button></a>
+        <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Un besoin en dev? Discutons">Un besoin en dev? Discutons</button></a>
       </section>
 
       {/* {videos?.length && (
@@ -247,7 +260,7 @@ export default function Home() {
       <footer className="footer mt-20 bg-black w-full py-6" id="demande">
         <div className="container">
           <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Un besoin en dev ?</span>
-          <h2 className="text-left text-white">Prendre rendez-vous avec moi</h2>
+          <h2 className="text-left text-white">Prenez rendez-vous avec moi</h2>
         </div>
 
         <Form />
