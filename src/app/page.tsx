@@ -196,13 +196,14 @@ export default function Home() {
 
       <section className="mt-20" id="cas-clients-freelance">
         <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création de saas, refonte, restructuration, mvp</span>
-        <h2>Réalisez votre produit</h2>
+        <h2>Réalisez votre produit comme :</h2>
         <div className="relative image-case-study float-left w-4/12">
           <Image
-            src="/andragogue.webp"
+            className="-mt-5"
+            src="/andragogue.jpg"
             alt="Développeur front-end React / Node freelance / Formateur clean architecture"
             layout="fill"
-            objectFit="cover"
+            objectFit="contain"
             draggable="false"
           />
         </div>
