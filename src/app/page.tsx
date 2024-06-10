@@ -64,9 +64,9 @@ export default function Home() {
           <p>
             En tant que développeur front-end freelance depuis 6 ans j’aide les startups à développer rapidement des saas fiables qui rencontrent la demande et besoins de leurs utilisateurs.<br/>
             Précédemment j'avais été dev Wordpress freelance durant 4 ans.<br/>
-            Je travaille en direct avec les startups, mais aussi aevc des recruteurs.<br/>
+            Je travaille en direct avec les startups mais aussi avec via les ESN.<br/>
             Je suis également créateur de contenu, sur Youtube et Linkedin principalement.<br/>
-            Là où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.<br/><br/>
+            Où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.<br/><br/>
             Mes technos: React / Next.js / Redux / React Query / GraphQL / TypeScript / Nest / Node<br/>
             Expert en architecture logicielle
           </p>
