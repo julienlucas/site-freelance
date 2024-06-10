@@ -254,7 +254,7 @@ export default function Home() {
       <footer className="footer mt-20 bg-black w-full py-6" id="demande">
         <div className="container">
           <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Un besoin en dev ?</span>
-          <h2 className="text-left text-white">Discutons 20min de votre projet</h2>
+          <h2 className="text-left text-white">Discutons 30min de votre projet</h2>
         </div>
 
         <Form />
