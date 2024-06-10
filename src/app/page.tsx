@@ -58,7 +58,7 @@ export default function Home() {
             draggable="false"
           />
           <span className="title font-unbounded">Hello, moi c'est Julien 👋</span>
-          <h1>Développeur front-end React / Fullstack freelance, je crée rapidement des solutions saas fiables pour les startups / Formateur / Créateur Youtube</h1>
+          <h1>Développeur front-end React - Fullstack freelance, je crée <span>à vitesse express</span> des solutions saas fiables pour les startups / Formateur de devs</h1>
         </div>
         <div className="mt-12">
           <p>
@@ -67,7 +67,9 @@ export default function Home() {
             Je travaille en direct avec les startups, mais aussi aevc des recruteurs.<br/>
             Je suis également créateur de contenu, sur Youtube et Linkedin principalement.<br/>
             Là où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.<br/><br/>
-            Mes technos: React / Next.js / Redux / React Query / GraphQL / TypeScript / Nest / Node</p>
+            Mes technos: React / Next.js / Redux / React Query / GraphQL / TypeScript / Nest / Node<br/>
+            Expert en architecture logicielle
+          </p>
         </div>
         <a href="#formation"><button className="primary" data-title="Ma formation devs">Ma formation devs</button></a>
         <a href="#demande"><button className="secondary">Un besoin en dev? Contactez-moi</button></a>
