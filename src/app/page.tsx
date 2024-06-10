@@ -58,7 +58,7 @@ export default function Home() {
             draggable="false"
           />
           <span className="title font-unbounded">Hello, moi c'est Julien 👋</span>
-          <h1>Développeur front-end React / Fullstack freelance, je crée super vite des solutions saas fiables pour les startups / Formateur / Créateur de contenu</h1>
+          <h1>Développeur front-end React / Fullstack freelance, je crée rapidement des solutions saas fiables pour les startups / Formateur / Créateur Youtube</h1>
         </div>
         <div className="mt-12">
           <p>
@@ -177,7 +177,7 @@ export default function Home() {
       <section className="mt-2" id="tarifs-freelance">
         <h2 className="-mb-0.5">Tarifs</h2>
         <p>Les fonctionnalités déterminent les coûts de développement de votre application.</p>
-        <div className="relative mb-8 bg-black text-white rounded-lg p-6 -mb-5 mt-10">
+        <div className="relative mb-8 bg-black box-shadow-image text-white p-6 mt-10">
           <h2 className="h2-b no-margin text-white">Lancement webapp rapide (MVP)</h2>
           <ul className="offers">
             <li>Jusqu'à 10 écrans</li>
@@ -191,7 +191,7 @@ export default function Home() {
         </div>
         <a href="#demande"><button className="primary" data-title="Démarrons votre projet">Démarrons votre projet</button></a>
 
-        <div className="relative mb-8 bg-black text-white rounded-lg p-6 -mb-5 mt-10">
+        <div className="relative mb-8 bg-black box-shadow-image text-white p-6 mt-10">
           <h2 className="h2-b no-margin text-white">Lancement webapp pro</h2>
           <ul className="offers">
             <li>Jusqu'à 20 écrans</li>
@@ -205,7 +205,7 @@ export default function Home() {
         </div>
         <a href="#demande"><button className="primary" data-title="Démarrons votre projet">Démarrons votre projet</button></a>
 
-        <div className="relative mb-8 bg-black text-white rounded-lg p-6 -mb-5 mt-10">
+        <div className="relative mb-8 bg-black box-shadow-image text-white p-6 mt-10">
           <h2 className="h2-b no-margin text-white">Lancement webapp expert</h2>
           <ul className="offers">
             <li>Écrans illimités</li>
