@@ -214,6 +214,20 @@ h2.no-margin {
   background: linear-gradient(90deg, #05181d 10%, #4a38ad 94%, #8b5cf6 100%);
   z-index: -1;
 }
+ul.offers {
+  margin-bottom: 15px;
+}
+ul.offers li::before {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  content: "";
+  width: 30px;
+  height: 20px;
+  background-image: url('../../public/checkmark-badge-03-stroke-rounded.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 button.primary {
   position: relative;

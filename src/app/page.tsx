@@ -38,8 +38,9 @@ export default function Home() {
         <nav className="mt-1.5 float-right">
           <ul>
             <li><a href="#cas-clients-freelance">Cas clients</a></li>
+            <li><a href="#tarifs-freelance">Tarifs</a></li>
             <li><a href="#formation">Ma formation</a></li>
-            <li><a href="https://youtube.com/c/julienlucas" target="_blank">Ma chaîne YouTube</a></li>
+            {/* <li><a href="https://youtube.com/c/julienlucas" target="_blank">Ma chaîne YouTube</a></li> */}
             <SocialMediaIcons />
           </ul>
         </nav>
@@ -61,7 +62,7 @@ export default function Home() {
         </div>
         <div className="mt-12">
           <p>
-            En tant que développeur front-end freelance depuis 6 ans (mais aussi full stack) j’aide les startups à développer rapidement des saas fiables qui rencontrent la demande et besoins de leurs utilisateurs.<br/>
+            En tant que développeur front-end freelance depuis 6 ans j’aide les startups à développer rapidement des saas fiables qui rencontrent la demande et besoins de leurs utilisateurs.<br/>
             Précédemment j'avais été dev Wordpress freelance durant 4 ans.<br/>
             Je travaille en direct avec les startups, mais aussi aevc des recruteurs.<br/>
             Je suis également créateur de contenu, sur Youtube et Linkedin principalement.<br/>
@@ -129,74 +130,9 @@ export default function Home() {
         {/* <button className="primary" data-title="Un besoin ? Contactez-moi">Un besoin ? Contactez-moi</button> */}
       </section>
 
-      {/* <section className="mt-20">
-        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">80% Front / 20% Back</span>
-        <h2 className="text-left">Mes compétences et stack de prédilection</h2>
-        <div className="flex grid-rows-5 gap-4 -mt-4">
-          <div className="relative max-w-12 w-full h-12">
-            <Image
-              src="/react.svg"
-              alt="Développeur front-end React / Node freelance / Formateur clean architecture"
-              layout="fill"
-              objectFit="contain"
-              draggable="false"
-            />
-            <h3>React</h3>
-          </div>
-          <div className="relative max-w-12 w-full h-10">
-            <Image
-              className="mt-1"
-              src="/redux.svg"
-              alt="Développeur front-end React / Node freelance / Formateur clean architecture"
-              layout="fill"
-              objectFit="contain"
-              draggable="false"
-            />
-            <h3>Redux</h3>
-          </div>
-          <div className="relative max-w-12 w-full h-10">
-            <Image
-              className="mt-1"
-              src="/react-query.svg"
-              alt="Développeur front-end React / Node freelance / Formateur clean architecture"
-              layout="fill"
-              objectFit="contain"
-              draggable="false"
-            />
-            <h3>React Query</h3>
-          </div>
-          <div className="relative max-w-12 w-full h-10">
-            <Image
-              className="mt-1"
-              src="/typescript.svg"
-              alt="Développeur front-end React / Node freelance / Formateur clean architecture"
-              layout="fill"
-              objectFit="contain"
-              draggable="false"
-            />
-            <h3>Typescript</h3>
-          </div>
-        </div>
-      </section> */}
-
-      <section className="relative mt-20" id="formation">
-        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Formes-toi comme développeur</span>
-        <h2 className="text-left">Mon programme de formation</h2>
-        <a href="https://formation-cleanarchitecture.com" target="_blank">
-          <div className="relative -mt-1 box-shadow-image bg-gray-100 h-80 bg-[url('/formation-cleanarchi.jpg')] bg-cover" />
-        </a>
-        <h2 className="mt-8 h2-b">Formation Clean Architecture — Devenir un véritable développeur senior</h2>
-        <p>
-          La formation qui te permettra de passer véritablement senior.
-          La seule formation du marché pour pratiquer la Clean Architecture sur 3 des frameworks pilliers du front-end : Redux Toolkit, RTKQ et React Query.
-          15 heures de vidéos. 4 modules. Apprentissage aussi du testing end-to-end et unitaire. Accès Slack pour que tu me poses toute question.
-        </p>
-        <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Accèder à la formation">Accèder à la formation</button></a>
-      </section>
-
       <section className="mt-20" id="cas-clients-freelance">
-        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création de saas, refonte, restructuration, mvp</span>
-        <h2>Réalisez votre produit comme :</h2>
+        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création de saas, refonte, restructuration, mvp, v1, ou très long terme</span>
+        <h2>Développons votre produit comme</h2>
         <div className="relative image-case-study float-left w-4/12">
           <Image
             className="-mt-5"
@@ -217,7 +153,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-20">
+      <section className="mt-2">
         <div className="float-left w-7/12">
           <h2 className="h2-b no-margin">Sewan</h2>
           <p><strong>Développeur front dans une team de 40 devs pour refonte complète d'un saas</strong></p>
@@ -238,8 +174,65 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Un besoin en dev? Discutons">Un besoin en dev? Discutons</button></a>
+      <section className="mt-2" id="tarifs-freelance">
+        <h2 className="-mb-0.5">Tarifs</h2>
+        <p>Les fonctionnalités déterminent les coûts de développement de votre application.</p>
+        <div className="relative mb-8 bg-black text-white rounded-lg p-6 -mb-5 mt-10">
+          <h2 className="h2-b no-margin text-white">Lancement webapp rapide (MVP)</h2>
+          <ul className="offers">
+            <li>Jusqu'à 10 écrans</li>
+            <li>Entre 1 & 3 fonctionnalités</li>
+            <li>Livré en 1 mois</li>
+            <li>Design inclus</li>
+          </ul>
+          <p className="mb-5 text-white">MVP (Minimum Viable Product) composé d'au maximum 10 écrans avec des fonctionnalités essentielles et une interface utilisateur personnalisée. Le meilleur choix pour un lancement rapide.</p>
+          <p className="text-white"><strong className="text-violet-400">Tarif:</strong> 9500 €</p>
+          <p className="text-white"><strong className="text-violet-400">Livraison:</strong> 1 mois</p>
+        </div>
+        <a href="#demande"><button className="primary" data-title="Démarrons votre projet">Démarrons votre projet</button></a>
+
+        <div className="relative mb-8 bg-black text-white rounded-lg p-6 -mb-5 mt-10">
+          <h2 className="h2-b no-margin text-white">Lancement webapp pro</h2>
+          <ul className="offers">
+            <li>Jusqu'à 20 écrans</li>
+            <li>Jusqu'à 7 fonctionnalités</li>
+            <li>Livré en 3 mois</li>
+            <li>Design inclus</li>
+          </ul>
+          <p className="mb-5 text-white">Les applications de niveau intermédiaire sont plus sophistiquées, c'est-à-dire qu'elles intègrent des API, de 10 à 20 écrans et quelques fonctionnalités complexes avec une logique métier intermédiaire.</p>
+          <p className="text-white"><strong className="text-violet-400">Tarif:</strong> 28500 €</p>
+          <p className="text-white"><strong className="text-violet-400">Livraison:</strong> 3 mois</p>
+        </div>
+        <a href="#demande"><button className="primary" data-title="Démarrons votre projet">Démarrons votre projet</button></a>
+
+        <div className="relative mb-8 bg-black text-white rounded-lg p-6 -mb-5 mt-10">
+          <h2 className="h2-b no-margin text-white">Lancement webapp expert</h2>
+          <ul className="offers">
+            <li>Écrans illimités</li>
+            <li>Fonctionnalités illimitées</li>
+            <li>Livraison flexible</li>
+            <li>Design inclus</li>
+          </ul>
+          <p className="mb-5 text-white">Les applications complexes sont les meilleures. Ces applications sont multi-fonctionnelles et offrent des fonctionnalités avancées qui nécessitent la mise en place d'une architecture complexe, de multiples intégrations, des exigences de haute sécurité, etc...</p>
+          <p className="text-white"><strong className="text-violet-400">Tarif:</strong> À estimer</p>
+          <p className="text-white"><strong className="text-violet-400">Livraison:</strong> Plus de 3 mois</p>
+        </div>
+        <a href="#demande"><button className="primary" data-title="Démarrons votre projet">Démarrons votre projet</button></a>
+      </section>
+
+      <section className="relative mt-20" id="formation">
+        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Formes-toi comme développeur</span>
+        <h2 className="text-left">Mon programme de formation</h2>
+        <a href="https://formation-cleanarchitecture.com" target="_blank">
+          <div className="relative -mt-1 box-shadow-image bg-gray-100 h-80 bg-[url('/formation-cleanarchi.jpg')] bg-cover" />
+        </a>
+        <h2 className="mt-8 h2-b">Formation Clean Architecture — devenir senior en conception d'applications</h2>
+        <p>
+          La formation qui te permettra de passer véritablement senior.
+          La seule formation du marché pour pratiquer la Clean Architecture sur 3 des frameworks pilliers du front-end : Redux Toolkit, RTKQ et React Query.
+          15 heures de vidéos. 4 modules. Apprentissage aussi du testing end-to-end et unitaire. Accès Slack pour que tu me poses toute question.
+        </p>
+        <a href="https://formation-cleanarchitecture.com" target="_blank"><button className="primary" data-title="Accèder à la formation">Accèder à la formation</button></a>
       </section>
 
       {/* {videos?.length && (
