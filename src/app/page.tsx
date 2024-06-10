@@ -188,7 +188,7 @@ export default function Home() {
             <li>Design inclus</li>
           </ul>
           <p className="mb-5 text-white">MVP (Minimum Viable Product) composé d'au maximum 10 écrans avec des fonctionnalités essentielles et une interface utilisateur personnalisée. Le meilleur choix pour un lancement rapide.</p>
-          <p className="text-white"><strong className="text-violet-400">Tarif:</strong> 9500 €</p>
+          <p className="text-white"><strong className="text-violet-400">Tarif:</strong> 8000 €</p>
           <p className="text-white"><strong className="text-violet-400">Livraison:</strong> 1 mois</p>
         </div>
         <a href="#demande"><button className="primary" data-title="Démarrons votre projet">Démarrons votre projet</button></a>
@@ -202,7 +202,7 @@ export default function Home() {
             <li>Design inclus</li>
           </ul>
           <p className="mb-5 text-white">Les applications de niveau intermédiaire sont plus sophistiquées, c'est-à-dire qu'elles intègrent des API, de 10 à 20 écrans et quelques fonctionnalités complexes avec une logique métier intermédiaire.</p>
-          <p className="text-white"><strong className="text-violet-400">Tarif:</strong> 28500 €</p>
+          <p className="text-white"><strong className="text-violet-400">Tarif:</strong> 24000 €</p>
           <p className="text-white"><strong className="text-violet-400">Livraison:</strong> 3 mois</p>
         </div>
         <a href="#demande"><button className="primary" data-title="Démarrons votre projet">Démarrons votre projet</button></a>
