@@ -133,7 +133,7 @@ export default function Home() {
       </section>
 
       <section className="mt-20" id="cas-clients-freelance">
-        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création de saas, refonte, restructuration, mvp, v1, ou très long terme</span>
+        <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Création de saas, refonte, restructuration, mvp, v1</span>
         <h2>Développons votre produit comme</h2>
         <div className="relative image-case-study float-left w-4/12">
           <Image
