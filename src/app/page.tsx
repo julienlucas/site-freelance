@@ -67,8 +67,8 @@ export default function Home() {
             Je travaille en direct avec les startups mais aussi avec via les ESN.<br/>
             Je suis également créateur de contenu, sur Youtube et Linkedin principalement.<br/>
             Où j’aide les codeurs à devenir de meilleurs développeurs en salarié, freelance, ou peu importe.<br/><br/>
-            Compétences clés : Front-end (React, Next, Tailwind, Chakra, Redux), Back (Node.js, GraphQL, Nest) et Cloud & DevOps (AWS, Docker, Serverless)
-            Forte expertise en architecture logicielle
+            Compétences clés : Front-end (React, Next, Tailwind, Chakra, Redux), Back (Node.js, GraphQL, Nest) et Cloud & DevOps (AWS, Docker, Serverless)<br/>
+            Solide expertise en architecture logicielle
           </p>
         </div>
         <a href="#formation"><button className="primary" data-title="Ma formation devs">Ma formation devs</button></a>
