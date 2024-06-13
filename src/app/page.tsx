@@ -257,7 +257,7 @@ export default function Home() {
         <div className="container">
           <span className="sub-title bg-gradient-to-r from-slate-900 via-indigo-800 to-violet-500 inline-block text-transparent bg-clip-text">Un besoin en dev ?</span>
           <h2 className="text-left text-white">Discutons 30min de votre projet</h2>
-          <p className="text-left text-white mb-6 -mt-4">Envoyez-moi un message, et je vous propose un call dans les prochains jours.</p>
+          <p className="text-left text-white mb-6 -mt-7">Envoyez-moi un message, et je vous propose un call dans les prochains jours.</p>
         </div>
 
         <Form />
