@@ -155,10 +155,10 @@ nav.site-nav {
 /* ─── Cover / hero ─── */
 .profile-cover {
   min-height: 100vh;
-  padding: clamp(56px, 6vw, 88px) clamp(24px, 5vw, 64px) 72px;
+  padding: clamp(16px, 1.6vw, 24px) clamp(24px, 5vw, 64px) 56px;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  gap: 40px;
+  gap: 14px;
   background: var(--p-paper);
   color: var(--p-ink);
   position: relative;
@@ -183,7 +183,7 @@ nav.site-nav {
   grid-template-columns: 1.1fr 1fr;
   gap: clamp(40px, 5vw, 80px);
   align-items: stretch;
-  padding: 32px 0 32px;
+  padding: 0 0 24px;
   min-width: 0;
   max-width: 100%;
   margin: 0 auto;
@@ -1135,6 +1135,13 @@ nav.site-nav {
   align-items: center;
 }
 
+/* Section 02 : colonnes inversees (visuel a gauche, texte a droite) */
+.product-grid-reversed {
+  grid-template-columns: minmax(0, .82fr) minmax(0, 1fr);
+}
+.product-grid-reversed .product-visual { grid-column: 1; grid-row: 1; }
+.product-grid-reversed .product-meta { grid-column: 2; grid-row: 1; }
+
 .product-eyebrow {
   display: flex;
   align-items: center;
@@ -1269,6 +1276,9 @@ nav.site-nav {
 
 @media (max-width: 900px) {
   .product-grid { grid-template-columns: 1fr; gap: 28px; }
+  .product-grid-reversed { grid-template-columns: 1fr; }
+  .product-grid-reversed .product-visual,
+  .product-grid-reversed .product-meta { grid-column: 1; grid-row: auto; }
   .product-visual { order: -1; aspect-ratio: 16 / 10; }
   .product-stats { gap: 16px 32px; margin-top: 26px; }
   .product-watermark { font-size: 30vw; }
@@ -2273,52 +2283,81 @@ nav.site-nav {
   .cta-btn { width: 100%; }
 }
 
-/* ─── Footer ─── */
+/* ─── Footer (wordmark geant + colonnes + barre de bas) ─── */
 footer.site-footer {
   border-top: 1px solid var(--border);
-  padding: 32px 24px 40px;
   background: var(--p-paper);
+  padding: clamp(56px, 7vw, 88px) clamp(24px, 5vw, 64px) 40px;
+  position: relative;
+  overflow: hidden;
 }
-.site-footer .container {
-  max-width: 720px;
+.site-footer-inner {
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
-.site-footer p {
+.footer-giant {
   font-family: var(--font-sora), "Sora", system-ui, sans-serif;
-  color: var(--text-2);
-  font-size: 14px;
-  letter-spacing: -.01em;
-  margin-bottom: 8px;
+  font-weight: 800;
+  font-size: clamp(64px, 12vw, 200px);
+  line-height: .88;
+  letter-spacing: -.05em;
+  color: var(--p-ink);
+  margin-bottom: clamp(40px, 5vw, 60px);
 }
-.footer-links {
-  display: flex;
-  gap: 2px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
+.footer-giant .footer-cursor { color: var(--accent); }
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: clamp(36px, 4vw, 60px);
+  border-bottom: 1px solid var(--border);
 }
-.footer-links a {
-  font-family: var(--font-sora), "Sora", system-ui, sans-serif;
+.footer-col h5 {
+  font-family: var(--font-space-mono), "Space Mono", ui-monospace, monospace;
   font-size: 11px;
-  letter-spacing: .14em;
+  font-weight: 700;
+  letter-spacing: .24em;
   text-transform: uppercase;
-  color: var(--text-3);
-  padding: 6px 8px;
-  border-radius: 6px;
-  transition: all .2s;
+  color: var(--accent);
+  margin-bottom: 18px;
 }
-.footer-links a::before { display: none; }
-.footer-links a:hover { background: var(--bg-pill); color: var(--text); }
-.footer-slash {
-  font-family: var(--font-sora), "Sora", system-ui, sans-serif;
-  font-size: 11px;
-  color: var(--text-3);
-  opacity: .5;
-  padding: 0 2px;
-  user-select: none;
+.footer-col a {
+  display: block;
+  padding: 6px 0;
+  font-size: 15px;
+  color: var(--text-2);
+  transition: color .2s ease, transform .2s ease;
 }
+.footer-col a::before { display: none; }
+.footer-col a:hover { color: var(--accent); transform: translateX(4px); }
+.footer-about p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-2);
+  max-width: min(380px, 100%);
+  margin-bottom: 0;
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 28px;
+  font-family: var(--font-space-mono), "Space Mono", ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: .12em;
+  color: var(--text-3);
+}
+
+@media (max-width: 880px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px 24px; }
+  .footer-about { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+}
+
 
 ::selection { background: var(--accent); color: var(--p-paper); }
 
@@ -2345,8 +2384,6 @@ footer.site-footer {
 .profile-aside.profile-aside-mono,
 .nav-links a,
 .nav-slash,
-.footer-links a,
-.footer-slash,
 .profile-sidenav a,
 .cta-btn,
 .yt-meta {

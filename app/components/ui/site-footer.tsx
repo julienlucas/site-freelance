@@ -9,38 +9,72 @@ export default function SiteFooter() {
 
   return (
     <footer className="site-footer">
-      <div className="container">
-        <p>julienlucas.com · Applied AI Engineer / Ex développeur 5 ans en startups et scaleups</p>
-        <div className="footer-links">
-          <a
-            href="https://www.linkedin.com/in/julien-lucas-jl/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-          <span className="footer-slash" aria-hidden="true">/</span>
-          <a
-            href="https://www.youtube.com/@JulienLucas"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            YouTube
-          </a>
-          <span className="footer-slash" aria-hidden="true">/</span>
-          <a
-            href="https://github.com/julienlucas"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-          <span className="footer-slash" aria-hidden="true">/</span>
-          <a href="#contact">Contact</a>
+      <div className="site-footer-inner">
+        <div className="footer-giant">
+          Julien
+          <br />
+          Lucas
+          <span className="footer-cursor" aria-hidden="true">
+            .
+          </span>
         </div>
-        <p style={{ marginTop: 14, fontSize: 11, color: "#999" }}>
-          Avignon, France · {new Date().getFullYear()}
-        </p>
+
+        <div className="footer-grid">
+          <div className="footer-col footer-about">
+            <h5>À propos</h5>
+            <p>
+              Basé à Avignon. Cinq ans à coder pour des startups et des
+              scale-ups, puis une bascule vers l&apos;IA fin 2024. Trois
+              produits en production, construits seul, de bout en bout.
+            </p>
+          </div>
+
+          <div className="footer-col">
+            <h5>Produits</h5>
+            <a href="#produit-shootingpro">Shootingpro.co</a>
+            <a href="#produit-closechat">Closechat.co</a>
+            <a href="#produit-prospable">Prospable.com</a>
+            <a href="#pocs">Proof of concepts</a>
+          </div>
+
+          <div className="footer-col">
+            <h5>Explorer</h5>
+            <a href="#mes-produits">Projets</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div className="footer-col">
+            <h5>Social</h5>
+            <a
+              href="https://www.linkedin.com/in/julien-lucas-jl/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://www.youtube.com/@JulienLucas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              YouTube
+            </a>
+            <a
+              href="https://github.com/julienlucas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <div>© {new Date().getFullYear()} · Écrit à Avignon</div>
+          <div>Tous droits réservés</div>
+        </div>
       </div>
     </footer>
   );

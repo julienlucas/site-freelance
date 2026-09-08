@@ -41,10 +41,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
-      <body
-        className={`${sora.variable} ${spaceMono.variable} ${instrumentSerif.variable}`}
-      >
+    <html
+      lang="fr"
+      className={`${sora.variable} ${spaceMono.variable} ${instrumentSerif.variable}`}
+    >
+      <body>
         <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-LZL71FQRRE`}

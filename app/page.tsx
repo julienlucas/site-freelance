@@ -34,7 +34,7 @@ export default function Home() {
             <p className="profile-tagline">
               Cinq ans à coder pour des startups. Aujourd'hui je construis des{" "}
               <strong>
-                systèmes IA à forte valeur ajouté (agents IA, RAG, LLM)
+                systèmes IA à forte valeur ajouté (agents IA, RAG agentique, LLM)
               </strong>
               , trois produits en prod.
             </p>
@@ -216,7 +216,7 @@ export default function Home() {
             <span className="product-watermark" aria-hidden="true">
               02
             </span>
-            <div className="product-grid">
+            <div className="product-grid product-grid-reversed">
               <div className="product-meta">
                 <span className="product-eyebrow">
                   <span className="count">02</span>
@@ -421,9 +421,10 @@ export default function Home() {
               </article>
             </div>
             <p className="profile-funfact-body">
-              Pas de raccourci. Je voulais comprendre les modèles depuis la
-              backprop jusqu'au RAG multi-agentique, parce qu'on ne construit
-              pas en confiance ce qu'on n'a pas démonté.
+              J'ai eu envie d'aller plus loin que le dev "classique". Je voulais
+              comprendre les architectures d'agents, les modèles depuis la
+              backprop jusqu'au RAG agentique évalué hardcore, parce qu'on ne
+              construit pas en confiance ce qu'on n'a pas démonté.
             </p>
             <div className="cert-logos">
               <span className="cert-logos-label">Certifié par</span>
@@ -514,7 +515,8 @@ export default function Home() {
                 >
                   <span className="poc-list-num">N° 04 · Deepfake</span>
                   <h3 className="poc-list-title">
-                    Détecter les images IA (Nano Banana, Flux, Midjourney)
+                    Différenciateur images réelles vs IA (NanoBanana, Flux,
+                    Midjourney)
                   </h3>
                   <span className="poc-list-arrow" aria-hidden="true">
                     →
