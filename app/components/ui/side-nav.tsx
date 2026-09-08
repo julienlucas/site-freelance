@@ -10,16 +10,14 @@ interface Item {
 }
 
 const items: Item[] = [
-  { id: "cover",      label: "Cover",                tone: "light" },
-  { id: "aujourdhui", label: "I. Aujourd'hui",       tone: "light" },
-  { id: "parcours",   label: "II. Première ligne",   tone: "dark"  },
-  { id: "scale-ups",  label: "III. Cinq startups",   tone: "light" },
-  { id: "declic",     label: "IV. Le passage à l'IA",tone: "light" },
-  { id: "produits",   label: "V. Produits",          tone: "light" },
-  { id: "pocs",       label: "VI. POCs",             tone: "light" },
-  { id: "youtube",    label: "VII. YouTube",         tone: "light" },
-  { id: "stack",      label: "VIII. Stack & lieux",  tone: "dark"  },
-  { id: "contact",    label: "IX. Contact",          tone: "light" },
+  { id: "cover",          label: "Couverture",         tone: "light" },
+  { id: "aujourdhui",     label: "I. Aujourd'hui",     tone: "light" },
+  { id: "mes-produits",   label: "II. Mes produits",   tone: "light" },
+  { id: "parcours",       label: "III. Parcours & CV", tone: "dark" },
+  { id: "certifications", label: "IV. Certifications", tone: "light" },
+  { id: "pocs",           label: "V. POCs",            tone: "light" },
+  { id: "youtube",        label: "VI. YouTube",        tone: "light" },
+  { id: "contact",        label: "VII. Contact",       tone: "light" },
 ];
 
 const DARK_TONE_CLASSES = [
