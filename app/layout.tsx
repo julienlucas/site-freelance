@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Sora, Space_Mono } from "next/font/google";
+import { Instrument_Serif, Sora, Space_Mono } from "next/font/google";
 import Navigation from "./components/ui/navigation";
 import SideNav from "./components/ui/side-nav";
 import SiteFooter from "./components/ui/site-footer";
@@ -21,10 +21,18 @@ const spaceMono = Space_Mono({
   display: "swap",
 });
 
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument",
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["italic"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
-  title: "Julien Lucas — A profile in seven parts",
+  title: "Julien Lucas — Des systèmes IA en production",
   description:
-    "Julien Lucas. Cinq ans à coder pour des scale-ups. Une bascule fin 2024 vers l'IA. Aujourd'hui AI Engineer freelance à Avignon.",
+    "Julien Lucas. Cinq ans à coder pour des scale-ups. Une bascule fin 2024 vers l'IA. Aujourd'hui ingénieur en IA appliquée.",
 };
 
 export default function RootLayout({
@@ -34,7 +42,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${sora.variable} ${spaceMono.variable}`}>
+      <body
+        className={`${sora.variable} ${spaceMono.variable} ${instrumentSerif.variable}`}
+      >
         <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-LZL71FQRRE`}

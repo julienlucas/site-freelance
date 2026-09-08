@@ -29,7 +29,7 @@ const socials = [
     Icon: Youtube,
   },
   { label: "GitHub", href: "https://github.com/julienlucas", Icon: Github },
-  { label: "Email", href: "mailto:julienlucas84@gmail.com", Icon: Mail },
+  { label: "E-mail", href: "mailto:julienlucas84@gmail.com", Icon: Mail },
 ];
 
 export default function LinksPage() {
@@ -44,7 +44,7 @@ export default function LinksPage() {
           </div>
           <h1 className="lk-name">Julien Lucas</h1>
           <p className="lk-bio">
-            Désormais AI Engineer. J'ai passé 5 ans en tant que développeur
+            Désormais ingénieur IA. J'ai passé 5 ans en tant que développeur
             "classique" dans des startups et équipes tech après déjà une 1ère
             reconversion. C'est la 2ème donc (ou peut-être la 3ème finalement,
             longue histoire...) Aujourd'hui je construis des systèmes IA et je
@@ -160,7 +160,7 @@ export default function LinksPage() {
           </span>
           <span className="lk-banner-sub">
             De la première ligne de React à l&apos;IA appliquée —
-            l&apos;histoire en neuf parties.
+            l&apos;histoire en sept parties.
           </span>
           <ArrowUpRight className="lk-banner-arrow" size={22} />
         </Link>

@@ -10,7 +10,7 @@ export default function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="container">
-        <p>julienlucas.com · AI Engineer / Développeur</p>
+        <p>julienlucas.com · Applied AI Engineer / Ex développeur 5 ans en startups et scaleups</p>
         <div className="footer-links">
           <a
             href="https://www.linkedin.com/in/julien-lucas-jl/"
@@ -34,14 +34,6 @@ export default function SiteFooter() {
             rel="noopener noreferrer"
           >
             GitHub
-          </a>
-          <span className="footer-slash" aria-hidden="true">/</span>
-          <a
-            href="https://whatsappia.co"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsappIA
           </a>
           <span className="footer-slash" aria-hidden="true">/</span>
           <a href="#contact">Contact</a>
